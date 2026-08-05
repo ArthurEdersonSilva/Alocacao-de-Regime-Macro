@@ -1,0 +1,7 @@
+﻿tema,conclusao,valor,unidade
+Resultado contra o benchmark,O modelo oficial superou o benchmark.,3.1701706938942777,pontos de índice
+Resultado contra o challenger,O modelo oficial apresentou maior retorno absoluto que o challenger.,3.661134982081279,pontos de índice
+Valor da alocação dinâmica,A alocação dinâmica superou a carteira estática.,1.2104111678389415,pontos de índice
+Retorno sobre o CDI,O modelo oficial não superou uma carteira de 100% CDI.,-1.967045422408006,pontos de índice
+Consistência anual,O modelo oficial superou o benchmark em 3 de 3 períodos anuais.,3.0,de 3 períodos
+Perfil do modelo oficial,"O modelo oficial foi mantido como versão defensiva, priorizando controle de risco e estabilidade.",-0.0227031007295521,drawdown máximo

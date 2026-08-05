@@ -1,0 +1,7 @@
+﻿limitacao,impacto,tratamento
+Período histórico relativamente curto,O backtest possui 77 meses e 77 meses no walk-forward.,"Uso de walk-forward, rolling de 12 meses e comparação com múltiplas referências."
+Período de avaliação já analisado,2024–2026 não constitui mais um holdout final completamente intocado.,Apresentar o período como avaliação e evitar novos ajustes baseados nele.
+Sensibilidade aos pesos exatos de CDI,Somente parte das variantes próximas superou o benchmark.,Manter recalibração anual e acompanhar estabilidade dos parâmetros.
+Pesos-base dos ativos de risco fixos,"O walk-forward recalibrou confirmação e CDI, mas não reestimou todos os pesos.",Documentar como escolha metodológica para reduzir overfitting.
+Série oficial parcial do IMA-B fora do universo final,A série SGS 12466 não cobre todo o backtest. O ETF IMAB11.SA pode representar a classe quando aprovado pela coleta.,Manter somente séries com cobertura completa e reavaliar a fonte oficial quando atualizada.
+Custo operacional provisório,O custo de 10 bps por turnover pode não representar todos os custos reais.,Substituir por estimativa operacional documentada antes da implementação real.

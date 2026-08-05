@@ -1,0 +1,11 @@
+﻿validacao,status,detalhe
+Meses da base,APROVADO,77 meses
+Valores nulos,APROVADO,0 nulos
+Pesos selecionados,APROVADO,Todos os meses somam 100%
+Reprodução do modelo da Célula 9,APROVADO,Diferença máxima: 0.000000000000
+Reprodução do modelo base,APROVADO,Diferença máxima: 0.000000000000
+Reprodução do benchmark,APROVADO,Diferença máxima: 0.000000000000
+Candidato original na sensibilidade,APROVADO,O candidato original deve aparecer exatamente uma vez
+Sensibilidade não usada para seleção,APROVADO,A grade foi utilizada somente como diagnóstico
+Turnover não negativo,APROVADO,Turnover mínimo: 0.00553721
+Custos não negativos,APROVADO,Custo mínimo: 0.00000554

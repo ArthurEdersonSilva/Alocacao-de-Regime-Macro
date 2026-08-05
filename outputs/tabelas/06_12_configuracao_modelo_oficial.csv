@@ -1,0 +1,27 @@
+﻿parametro,valor
+Nome do projeto,Alocação Quantitativa por Regimes Macroeconômicos
+Nome do modelo oficial,Modelo walk-forward com CDI
+Tipo do modelo,Alocação mensal por regime com recalibração anual
+Modelo challenger,Modelo anterior sem CDI
+Objetivo do modelo oficial,Maximizar eficiência ajustada ao risco com proteção defensiva via CDI
+Frequência dos retornos,MENSAL
+Frequência de rebalanceamento,MENSAL
+Frequência de recalibração,ANUAL
+Método da janela de treino,JANELA EXPANSIVA
+Meses do treino inicial,48
+Meses entre recalibrações,12
+Confirmação atual do regime,2
+Candidato atual,conf_2m_cdi_50_40_50_40
+Última recalibração,3
+Data final do treino atual,31/12/2025
+Data inicial da vigência atual,31/01/2026
+Data final observada da vigência,31/05/2026
+Custo por turnover,0.001
+Ativos utilizados,"['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+Quantidade de ativos,13
+Benchmark,Carteira estática mensalmente rebalanceada com pesos iguais
+Taxa livre de risco,CDI
+Status do walk-forward,APROVADO
+Critérios aprovados,6
+Quantidade total de critérios,6
+Status de produção,APROVADO PELO WALK-FORWARD

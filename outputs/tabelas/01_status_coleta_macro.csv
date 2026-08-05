@@ -1,0 +1,5 @@
+﻿codigo_sgs,serie,status,registros,data_inicial,data_final,arquivo,duracao_segundos,erro
+433,IPCA,SUCESSO,270,2004-01-01,2026-06-01,data\raw\macro\ipca.csv,4.5070039000002,
+24363,IBC_BR,SUCESSO,269,2004-01-01,2026-05-01,data\raw\macro\ibc_br.csv,5.175870900000518,
+24364,IBC_BR_DESSAZONALIZADO,SUCESSO,269,2004-01-01,2026-05-01,data\raw\macro\ibc_br_dessazonalizado.csv,5.19201239999893,
+12,CDI,SUCESSO,5671,2004-01-02,2026-08-03,data\raw\macro\cdi.csv,22.548919099999694,

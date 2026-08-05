@@ -1,0 +1,8 @@
+﻿validacao,status,detalhe
+Quantidade de meses,APROVADO,77 meses
+Valores nulos,APROVADO,0 nulos
+Soma dos pesos,APROVADO,Pesos devem somar 100%
+Turnover não negativo,APROVADO,Mínimo: 0.005537
+Custos não negativos,APROVADO,Mínimo: 0.000006
+Seleção restrita ao treino,APROVADO,A grade foi classificada somente com métricas até 31/12/2023.
+Cobertura do CDI,APROVADO,CDI presente em todos os meses.

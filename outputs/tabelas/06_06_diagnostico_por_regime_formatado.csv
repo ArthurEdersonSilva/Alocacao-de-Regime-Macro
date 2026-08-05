@@ -1,0 +1,9 @@
+﻿periodo,regime,nome_regime,quantidade_meses,proporcao_periodo,retorno_total_estrategia,retorno_total_benchmark,diferenca_retorno_composto,excesso_acumulado_simples,retorno_medio_mensal_estrategia,retorno_medio_mensal_benchmark,excesso_medio_mensal,volatilidade_mensal_estrategia,volatilidade_mensal_benchmark,maximo_drawdown_estrategia,maximo_drawdown_benchmark,taxa_vitoria_mensal,turnover_total_estrategia,turnover_total_benchmark,diferenca_turnover,custo_total_estrategia,custo_total_benchmark,diferenca_custo,classificacao
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,21,43.75%,-3.77%,-3.77%,0.00%,0.00%,-0.16%,-0.16%,0.00%,1.98%,1.98%,-11.22%,-11.22%,4.76%,1.4483,1.4483,-0.0000,0.14%,0.14%,-0.00%,-
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,17,35.42%,20.76%,20.76%,0.00%,0.00%,1.15%,1.15%,0.00%,2.77%,2.77%,-6.36%,-6.36%,0.00%,0.5187,0.5187,-0.0000,0.05%,0.05%,-0.00%,-
+TREINO,ESTAGFLACAO,Estagflação,5,10.42%,-1.40%,-1.40%,0.00%,0.00%,-0.27%,-0.27%,0.00%,1.25%,1.25%,-1.90%,-1.90%,0.00%,0.1156,0.1156,-0.0000,0.01%,0.01%,-0.00%,-
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,5,10.42%,17.14%,17.14%,0.00%,0.00%,3.23%,3.23%,0.00%,2.24%,2.24%,-0.55%,-0.55%,0.00%,0.1142,0.1142,-0.0000,0.01%,0.01%,-0.00%,-
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,13,44.83%,7.22%,7.22%,0.00%,0.00%,0.58%,0.58%,0.00%,2.99%,2.99%,-4.93%,-4.93%,7.69%,0.2637,0.2637,-0.0000,0.03%,0.03%,-0.00%,POSITIVO
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,13,44.83%,11.11%,11.11%,0.00%,0.00%,0.83%,0.83%,0.00%,1.67%,1.67%,-2.98%,-2.98%,0.00%,0.2443,0.2443,-0.0000,0.02%,0.02%,-0.00%,POSITIVO
+TESTE,ESTAGFLACAO,Estagflação,0,0.00%,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,AMOSTRA INSUFICIENTE
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,3,10.34%,7.70%,7.70%,0.00%,0.00%,2.51%,2.51%,0.00%,1.56%,1.56%,0.00%,0.00%,0.00%,0.0595,0.0595,-0.0000,0.01%,0.01%,-0.00%,AMOSTRA INSUFICIENTE

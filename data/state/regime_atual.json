@@ -1,0 +1,10 @@
+{
+  "data_referencia": "2026-05-31",
+  "regime_detectado": "EXPANSAO_INFLACIONARIA",
+  "regime_confirmado": "EXPANSAO_DESINFLACIONARIA",
+  "codigo_regime": 1,
+  "regime_candidato": "EXPANSAO_INFLACIONARIA",
+  "meses_regime_candidato": 1,
+  "confirmacao_meses": 3,
+  "atualizado_em_utc": "2026-08-04T23:58:09.842289+00:00"
+}

@@ -1,0 +1,131 @@
+{
+    "projeto": {
+        "nome": "Alocação Quantitativa por Regimes Macroeconômicos",
+        "modelo_oficial": "Modelo walk-forward com CDI",
+        "modelo_challenger": "Modelo anterior sem CDI",
+        "status": "APROVADO PELO WALK-FORWARD"
+    },
+    "dados": {
+        "frequencia": "mensal",
+        "ativos": [
+            "NG=F",
+            "ZC=F",
+            "GC=F",
+            "USDBRL=X",
+            "EURBRL=X",
+            "JPYBRL=X",
+            "IMAB11.SA",
+            "B5MB11.SA",
+            "IB5M11.SA",
+            "BOVV11.SA",
+            "FIND11.SA",
+            "MATB11.SA",
+            "CDI"
+        ],
+        "quantidade_ativos": 13,
+        "taxa_livre_risco": "CDI",
+        "benchmark": "Pesos iguais com rebalanceamento mensal",
+        "ima_b_oficial_parcial_incluido": false,
+        "imab11_etf_incluido": true,
+        "motivo_exclusao_ima_b_oficial": "A série oficial SGS 12466 possui cobertura parcial."
+    },
+    "metodologia": {
+        "tipo_janela_treino": "expansiva",
+        "meses_treino_inicial": 48,
+        "recalibracao_meses": 12,
+        "rebalanceamento": "mensal",
+        "custo_por_turnover": 0.001,
+        "confirmacoes_testadas": [
+            1,
+            2,
+            3
+        ],
+        "pesos_cdi_testados": [
+            0.0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5
+        ]
+    },
+    "configuracao_atual": {
+        "numero_recalibracao": 3,
+        "candidato": "conf_2m_cdi_50_40_50_40",
+        "meses_confirmacao": 2,
+        "data_final_treino": "2025-12-31",
+        "data_inicial_vigencia": "2026-01-31",
+        "pesos_por_regime": {
+            "EXPANSAO_DESINFLACIONARIA": {
+                "NG=F": 0.0416666666666666,
+                "ZC=F": 0.0416666666666666,
+                "GC=F": 0.0416666666666666,
+                "USDBRL=X": 0.0416666666666666,
+                "EURBRL=X": 0.0416666666666666,
+                "JPYBRL=X": 0.0416666666666666,
+                "IMAB11.SA": 0.0416666666666666,
+                "B5MB11.SA": 0.0416666666666666,
+                "IB5M11.SA": 0.0416666666666666,
+                "BOVV11.SA": 0.0416666666666666,
+                "FIND11.SA": 0.0416666666666666,
+                "MATB11.SA": 0.0416666666666666,
+                "CDI": 0.5
+            },
+            "EXPANSAO_INFLACIONARIA": {
+                "NG=F": 0.05,
+                "ZC=F": 0.05,
+                "GC=F": 0.05,
+                "USDBRL=X": 0.05,
+                "EURBRL=X": 0.05,
+                "JPYBRL=X": 0.05,
+                "IMAB11.SA": 0.05,
+                "B5MB11.SA": 0.05,
+                "IB5M11.SA": 0.05,
+                "BOVV11.SA": 0.05,
+                "FIND11.SA": 0.05,
+                "MATB11.SA": 0.05,
+                "CDI": 0.4
+            },
+            "ESTAGFLACAO": {
+                "NG=F": 0.0416666666666666,
+                "ZC=F": 0.0416666666666666,
+                "GC=F": 0.0416666666666666,
+                "USDBRL=X": 0.0416666666666666,
+                "EURBRL=X": 0.0416666666666666,
+                "JPYBRL=X": 0.0416666666666666,
+                "IMAB11.SA": 0.0416666666666666,
+                "B5MB11.SA": 0.0416666666666666,
+                "IB5M11.SA": 0.0416666666666666,
+                "BOVV11.SA": 0.0416666666666666,
+                "FIND11.SA": 0.0416666666666666,
+                "MATB11.SA": 0.0416666666666666,
+                "CDI": 0.5
+            },
+            "RECESSAO_DESINFLACIONARIA": {
+                "NG=F": 0.05,
+                "ZC=F": 0.05,
+                "GC=F": 0.05,
+                "USDBRL=X": 0.05,
+                "EURBRL=X": 0.05,
+                "JPYBRL=X": 0.05,
+                "IMAB11.SA": 0.05,
+                "B5MB11.SA": 0.05,
+                "IB5M11.SA": 0.05,
+                "BOVV11.SA": 0.05,
+                "FIND11.SA": 0.05,
+                "MATB11.SA": 0.05,
+                "CDI": 0.4
+            }
+        }
+    },
+    "validacao": {
+        "status_walk_forward": "APROVADO",
+        "criterios_aprovados": 6,
+        "total_criterios": 6,
+        "periodo_avaliacao": {
+            "inicio": "2024-01-31",
+            "fim": "2026-05-31"
+        },
+        "observacao": "O período de avaliação já foi analisado e não representa um holdout final intocado."
+    }
+}

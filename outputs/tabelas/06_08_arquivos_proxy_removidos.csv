@@ -1,0 +1,3 @@
+﻿arquivo,existia_antes,acao,motivo
+C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\imab_sgs_12466_diario_parcial.csv,False,NAO_EXISTIA,Série oficial parcial do IMA-B excluída do modelo final.
+C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\imab_sgs_12466_mensal_parcial.csv,False,NAO_EXISTIA,Série oficial parcial do IMA-B excluída do modelo final.

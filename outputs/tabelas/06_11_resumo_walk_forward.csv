@@ -1,0 +1,40 @@
+﻿metrica,valor
+Data inicial do treino,31/01/2020
+Data final do período,31/05/2026
+Meses de treino inicial,48
+Data inicial fora da amostra,31/01/2024
+Data final fora da amostra,31/05/2026
+Meses fora da amostra,29
+Quantidade de recalibrações,3
+Combinações por recalibração,3888
+Combinações totais,11664
+Primeira recalibração reproduziu a Célula 9,SIM
+Índice final do walk-forward,131.96629481503703
+Índice final do modelo fixo,131.89022206637756
+Índice final do modelo anterior,128.30515983295575
+Índice final do benchmark,128.79612412114275
+Índice final da carteira estática,130.7558836471981
+Índice final de 100% CDI,133.93334023744504
+Diferença do walk-forward contra o benchmark,3.1701706938942777
+Diferença do walk-forward contra o modelo fixo,0.07607274865947034
+Retorno anualizado do walk-forward,0.12162264334242767
+Volatilidade do walk-forward,0.048487529103636795
+Retorno/volatilidade do walk-forward,2.5083283390760656
+Sharpe de excesso ao CDI,-0.10496559927845514
+Sortino de excesso ao CDI,-0.16737509408794335
+Calmar,5.357093940217334
+Máximo drawdown,-0.022703100729552173
+Turnover total,0.6355267972425722
+Janelas rolling acima do benchmark,0.5555555555555556
+Janelas rolling acima do modelo fixo,0.05555555555555555
+Pior excesso rolling contra o benchmark,-0.025858487113075368
+Melhor excesso rolling contra o benchmark,0.019222465725715843
+Anos em que superou o benchmark,3
+Quantidade de anos avaliados,3
+Confirmações diferentes selecionadas,1
+Proporção da confirmação modal,1.0
+Média das mudanças absolutas nos pesos de CDI,0.025
+Critérios aprovados,6
+Quantidade total de critérios,6
+Status walk-forward,APROVADO
+Observação metodológica,Os pesos-base de risco permaneceram fixos. A confirmação e os pesos de CDI foram recalibrados a cada 12 meses usando somente informações disponíveis até cada data de recalibração. O período fora da amostra já foi analisado e não é um holdout final intocado.

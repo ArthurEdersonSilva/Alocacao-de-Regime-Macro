@@ -1,0 +1,27 @@
+﻿metrica,valor
+Modelo oficial,Modelo walk-forward com CDI
+Modelo challenger,Modelo anterior sem CDI
+Status do modelo,APROVADO PELO WALK-FORWARD
+Candidato atual,conf_2m_cdi_50_40_50_40
+Confirmação atual,2
+Quantidade de ativos,13
+Ativos oficiais,"['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+Data inicial da avaliação,31/01/2024
+Data final da avaliação,31/05/2026
+Quantidade de meses,29
+Índice final oficial,131.96629481503703
+Índice final challenger,128.30515983295575
+Índice final benchmark,128.79612412114275
+Diferença oficial contra benchmark,3.1701706938942777
+Diferença oficial contra challenger,3.661134982081279
+Retorno anualizado oficial,0.1216226433424276
+Volatilidade anualizada oficial,0.0484875291036367
+Retorno/volatilidade oficial,2.5083283390760656
+Sharpe de excesso ao CDI,-0.1049655992784551
+Sortino de excesso ao CDI,-0.1673750940879433
+Calmar oficial,5.357093940217334
+Máximo drawdown,-0.0227031007295521
+Turnover total,0.6355267972425722
+Cenários com Calmar indefinido,1
+Quantidade de limitações documentadas,6
+Quantidade de arquivos no manifesto,27

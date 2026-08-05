@@ -1,0 +1,6 @@
+﻿parametro,media,desvio_padrao,minimo,maximo,quantidade_valores_unicos,media_mudanca_absoluta,maior_mudanca_absoluta,valor_modal,proporcao_valor_modal
+meses_confirmacao,2.0,0.0,2.0,2.0,1,0.0,0.0,2.0,1.0
+CDI — expansão desinflacionária,0.43333333333333335,0.05773502691896257,0.4,0.5,2,0.04999999999999999,0.09999999999999998,0.4,0.6666666666666666
+CDI — expansão inflacionária,0.4000000000000001,6.798699777552591e-17,0.4,0.4,1,0.0,0.0,0.4,1.0
+CDI — estagflação,0.5,0.0,0.5,0.5,1,0.0,0.0,0.5,1.0
+CDI — recessão desinflacionária,0.3333333333333333,0.057735026918962595,0.3,0.4,2,0.05000000000000002,0.10000000000000003,0.3,0.6666666666666666

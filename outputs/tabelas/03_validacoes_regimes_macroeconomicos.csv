@@ -1,0 +1,10 @@
+﻿validacao_tecnica,status,detalhe
+Base classificada não vazia,OK,255 meses
+Nenhum regime detectado não classificado,OK,0 meses não classificados
+Regimes detectados pertencem à configuração,OK,"['ESTAGFLACAO', 'EXPANSAO_DESINFLACIONARIA', 'EXPANSAO_INFLACIONARIA', 'RECESSAO_DESINFLACIONARIA']"
+Regimes confirmados pertencem à configuração,OK,"['ESTAGFLACAO', 'EXPANSAO_DESINFLACIONARIA', 'EXPANSAO_INFLACIONARIA', 'RECESSAO_DESINFLACIONARIA']"
+Códigos detectados preenchidos,OK,0 códigos ausentes
+Códigos confirmados preenchidos,OK,0 códigos ausentes
+Datas sem duplicidade,OK,0 duplicidades
+Datas ordenadas,OK,Ordem cronológica verificada
+Confirmação mensal válida,OK,3 mês(es)

@@ -1,0 +1,5 @@
+﻿base,arquivo,caminho,arquivo_existe,arquivo_nao_vazio,csv_legivel,quantidade_registros,quantidade_colunas,tamanho_bytes,status,erro
+Preços dos ativos tratados,precos_ativos_tratados.csv,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\precos_ativos_tratados.csv,True,True,True,1598,13,322338,OK,
+Retornos dos ativos,retornos_ativos.csv,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\retornos_ativos.csv,True,True,True,1597,13,394387,OK,
+Dados macroeconômicos mensais,dados_macro_mensais.csv,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\dados_macro_mensais.csv,True,True,True,272,12,49127,OK,
+Resumo de qualidade,resumo_qualidade.csv,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\resumo_qualidade.csv,True,True,True,1,10,241,OK,

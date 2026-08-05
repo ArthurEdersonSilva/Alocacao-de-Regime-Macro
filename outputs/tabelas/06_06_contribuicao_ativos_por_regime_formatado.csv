@@ -1,0 +1,97 @@
+﻿periodo,regime,nome_regime,ativo,quantidade_meses,peso_medio_estrategia,peso_benchmark,retorno_medio_ativo,contribuicao_estrategia_acumulada_simples,contribuicao_benchmark_acumulada_simples,diferenca_contribuicao_acumulada,contribuicao_media_mensal_estrategia,contribuicao_media_mensal_benchmark,diferenca_contribuicao_media_mensal
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,NG=F,21,8.33%,8.33%,-2.59%,-4.54%,-4.54%,0.00%,-0.22%,-0.22%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,ZC=F,21,8.33%,8.33%,-1.26%,-2.21%,-2.21%,0.00%,-0.11%,-0.11%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,GC=F,21,8.33%,8.33%,1.04%,1.82%,1.82%,-0.00%,0.09%,0.09%,-0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,USDBRL=X,21,8.33%,8.33%,0.12%,0.21%,0.21%,0.00%,0.01%,0.01%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,EURBRL=X,21,8.33%,8.33%,0.26%,0.46%,0.46%,-0.00%,0.02%,0.02%,-0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,JPYBRL=X,21,8.33%,8.33%,-0.60%,-1.05%,-1.05%,0.00%,-0.05%,-0.05%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,IMAB11.SA,21,8.33%,8.33%,-0.00%,-0.01%,-0.01%,0.00%,-0.00%,-0.00%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,B5MB11.SA,21,8.33%,8.33%,-0.03%,-0.05%,-0.05%,0.00%,-0.00%,-0.00%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,IB5M11.SA,21,8.33%,8.33%,1.13%,1.97%,1.97%,-0.00%,0.09%,0.09%,-0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,BOVV11.SA,21,8.33%,8.33%,-0.11%,-0.19%,-0.19%,0.00%,-0.01%,-0.01%,0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,FIND11.SA,21,8.33%,8.33%,0.25%,0.44%,0.44%,-0.00%,0.02%,0.02%,-0.00%
+TREINO,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,MATB11.SA,21,8.33%,8.33%,-0.09%,-0.16%,-0.16%,0.00%,-0.01%,-0.01%,0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,NG=F,17,8.33%,8.33%,1.82%,2.57%,2.57%,-0.00%,0.15%,0.15%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,ZC=F,17,8.33%,8.33%,3.16%,4.47%,4.47%,-0.00%,0.26%,0.26%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,GC=F,17,8.33%,8.33%,0.63%,0.89%,0.89%,-0.00%,0.05%,0.05%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,USDBRL=X,17,8.33%,8.33%,0.33%,0.47%,0.47%,0.00%,0.03%,0.03%,0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,EURBRL=X,17,8.33%,8.33%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,JPYBRL=X,17,8.33%,8.33%,-0.28%,-0.39%,-0.39%,-0.00%,-0.02%,-0.02%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,IMAB11.SA,17,8.33%,8.33%,0.19%,0.27%,0.27%,-0.00%,0.02%,0.02%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,B5MB11.SA,17,8.33%,8.33%,0.20%,0.28%,0.28%,-0.00%,0.02%,0.02%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,IB5M11.SA,17,8.33%,8.33%,-0.14%,-0.20%,-0.20%,0.00%,-0.01%,-0.01%,0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,BOVV11.SA,17,8.33%,8.33%,2.42%,3.43%,3.43%,-0.00%,0.20%,0.20%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,FIND11.SA,17,8.33%,8.33%,1.86%,2.64%,2.64%,-0.00%,0.16%,0.16%,-0.00%
+TREINO,EXPANSAO_INFLACIONARIA,Expansão inflacionária,MATB11.SA,17,8.33%,8.33%,3.67%,5.20%,5.20%,-0.00%,0.31%,0.31%,-0.00%
+TREINO,ESTAGFLACAO,Estagflação,NG=F,5,8.33%,8.33%,13.56%,5.65%,5.65%,-0.00%,1.13%,1.13%,-0.00%
+TREINO,ESTAGFLACAO,Estagflação,ZC=F,5,8.33%,8.33%,-2.08%,-0.87%,-0.87%,0.00%,-0.17%,-0.17%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,GC=F,5,8.33%,8.33%,-1.23%,-0.51%,-0.51%,0.00%,-0.10%,-0.10%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,USDBRL=X,5,8.33%,8.33%,1.57%,0.66%,0.66%,-0.00%,0.13%,0.13%,-0.00%
+TREINO,ESTAGFLACAO,Estagflação,EURBRL=X,5,8.33%,8.33%,0.75%,0.31%,0.31%,0.00%,0.06%,0.06%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,JPYBRL=X,5,8.33%,8.33%,0.89%,0.37%,0.37%,-0.00%,0.07%,0.07%,-0.00%
+TREINO,ESTAGFLACAO,Estagflação,IMAB11.SA,5,8.33%,8.33%,-0.87%,-0.36%,-0.36%,0.00%,-0.07%,-0.07%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,B5MB11.SA,5,8.33%,8.33%,-1.57%,-0.65%,-0.65%,0.00%,-0.13%,-0.13%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,IB5M11.SA,5,8.33%,8.33%,-1.44%,-0.60%,-0.60%,0.00%,-0.12%,-0.12%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,BOVV11.SA,5,8.33%,8.33%,-3.73%,-1.55%,-1.55%,0.00%,-0.31%,-0.31%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,FIND11.SA,5,8.33%,8.33%,-4.22%,-1.76%,-1.76%,0.00%,-0.35%,-0.35%,0.00%
+TREINO,ESTAGFLACAO,Estagflação,MATB11.SA,5,8.33%,8.33%,-4.91%,-2.04%,-2.04%,0.00%,-0.41%,-0.41%,0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,NG=F,5,8.33%,8.33%,14.49%,6.04%,6.04%,-0.00%,1.21%,1.21%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,ZC=F,5,8.33%,8.33%,4.29%,1.79%,1.79%,-0.00%,0.36%,0.36%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,GC=F,5,8.33%,8.33%,1.67%,0.69%,0.69%,-0.00%,0.14%,0.14%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,USDBRL=X,5,8.33%,8.33%,1.41%,0.59%,0.59%,-0.00%,0.12%,0.12%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,EURBRL=X,5,8.33%,8.33%,2.43%,1.01%,1.01%,-0.00%,0.20%,0.20%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,JPYBRL=X,5,8.33%,8.33%,1.97%,0.82%,0.82%,-0.00%,0.16%,0.16%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,IMAB11.SA,5,8.33%,8.33%,1.11%,0.46%,0.46%,-0.00%,0.09%,0.09%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,B5MB11.SA,5,8.33%,8.33%,0.73%,0.30%,0.30%,-0.00%,0.06%,0.06%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,IB5M11.SA,5,8.33%,8.33%,1.30%,0.54%,0.54%,-0.00%,0.11%,0.11%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,BOVV11.SA,5,8.33%,8.33%,1.65%,0.69%,0.69%,-0.00%,0.14%,0.14%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,FIND11.SA,5,8.33%,8.33%,1.51%,0.63%,0.63%,-0.00%,0.13%,0.13%,-0.00%
+TREINO,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,MATB11.SA,5,8.33%,8.33%,6.28%,2.62%,2.62%,-0.00%,0.52%,0.52%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,NG=F,13,8.33%,8.33%,-1.34%,-1.45%,-1.45%,0.00%,-0.11%,-0.11%,0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,ZC=F,13,8.33%,8.33%,-1.51%,-1.64%,-1.64%,0.00%,-0.13%,-0.13%,0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,GC=F,13,8.33%,8.33%,1.91%,2.06%,2.06%,-0.00%,0.16%,0.16%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,USDBRL=X,13,8.33%,8.33%,0.48%,0.52%,0.52%,-0.00%,0.04%,0.04%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,EURBRL=X,13,8.33%,8.33%,0.36%,0.39%,0.39%,-0.00%,0.03%,0.03%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,JPYBRL=X,13,8.33%,8.33%,0.15%,0.16%,0.16%,0.00%,0.01%,0.01%,0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,IMAB11.SA,13,8.33%,8.33%,3.21%,3.48%,3.48%,-0.00%,0.27%,0.27%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,B5MB11.SA,13,8.33%,8.33%,2.60%,2.82%,2.82%,-0.00%,0.22%,0.22%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,IB5M11.SA,13,8.33%,8.33%,0.21%,0.23%,0.23%,-0.00%,0.02%,0.02%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,BOVV11.SA,13,8.33%,8.33%,0.83%,0.90%,0.90%,-0.00%,0.07%,0.07%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,FIND11.SA,13,8.33%,8.33%,0.63%,0.68%,0.68%,-0.00%,0.05%,0.05%,-0.00%
+TESTE,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,MATB11.SA,13,8.33%,8.33%,-0.57%,-0.62%,-0.62%,0.00%,-0.05%,-0.05%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,NG=F,13,8.33%,8.33%,4.87%,5.27%,5.27%,-0.00%,0.41%,0.41%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,ZC=F,13,8.33%,8.33%,0.88%,0.96%,0.96%,-0.00%,0.07%,0.07%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,GC=F,13,8.33%,8.33%,3.47%,3.76%,3.76%,-0.00%,0.29%,0.29%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,USDBRL=X,13,8.33%,8.33%,-0.38%,-0.41%,-0.41%,0.00%,-0.03%,-0.03%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,EURBRL=X,13,8.33%,8.33%,0.04%,0.05%,0.05%,0.00%,0.00%,0.00%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,JPYBRL=X,13,8.33%,8.33%,-0.58%,-0.63%,-0.63%,0.00%,-0.05%,-0.05%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,IMAB11.SA,13,8.33%,8.33%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,B5MB11.SA,13,8.33%,8.33%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,IB5M11.SA,13,8.33%,8.33%,0.15%,0.16%,0.16%,-0.00%,0.01%,0.01%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,BOVV11.SA,13,8.33%,8.33%,0.68%,0.74%,0.74%,-0.00%,0.06%,0.06%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,FIND11.SA,13,8.33%,8.33%,1.22%,1.32%,1.32%,-0.00%,0.10%,0.10%,-0.00%
+TESTE,EXPANSAO_INFLACIONARIA,Expansão inflacionária,MATB11.SA,13,8.33%,8.33%,-0.42%,-0.46%,-0.46%,0.00%,-0.04%,-0.04%,0.00%
+TESTE,ESTAGFLACAO,Estagflação,NG=F,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,ZC=F,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,GC=F,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,USDBRL=X,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,EURBRL=X,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,JPYBRL=X,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,IMAB11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,B5MB11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,IB5M11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,BOVV11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,FIND11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,ESTAGFLACAO,Estagflação,MATB11.SA,0,-,8.33%,-,-,-,-,-,-,-
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,NG=F,3,8.33%,8.33%,8.12%,2.03%,2.03%,-0.00%,0.68%,0.68%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,ZC=F,3,8.33%,8.33%,1.98%,0.49%,0.49%,-0.00%,0.16%,0.16%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,GC=F,3,8.33%,8.33%,4.40%,1.10%,1.10%,-0.00%,0.37%,0.37%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,USDBRL=X,3,8.33%,8.33%,1.54%,0.39%,0.39%,-0.00%,0.13%,0.13%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,EURBRL=X,3,8.33%,8.33%,1.67%,0.42%,0.42%,-0.00%,0.14%,0.14%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,JPYBRL=X,3,8.33%,8.33%,-0.09%,-0.02%,-0.02%,-0.00%,-0.01%,-0.01%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,IMAB11.SA,3,8.33%,8.33%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,B5MB11.SA,3,8.33%,8.33%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%,0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,IB5M11.SA,3,8.33%,8.33%,1.09%,0.27%,0.27%,-0.00%,0.09%,0.09%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,BOVV11.SA,3,8.33%,8.33%,3.37%,0.84%,0.84%,-0.00%,0.28%,0.28%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,FIND11.SA,3,8.33%,8.33%,2.43%,0.61%,0.61%,-0.00%,0.20%,0.20%,-0.00%
+TESTE,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,MATB11.SA,3,8.33%,8.33%,5.65%,1.41%,1.41%,-0.00%,0.47%,0.47%,-0.00%

@@ -1,0 +1,16 @@
+﻿metrica,valor
+Meses de confirmação,1
+Alpha de encolhimento,0.0
+Custo por turnover,0.001
+Data final do treino,31/12/2023
+Meses de treino,48
+Meses de teste,29
+Quantidade de regimes problemáticos,0
+Pior regime no teste,Expansão desinflacionária
+Meses do pior regime,13
+Diferença do pior regime,0.0
+Classificação do pior regime,POSITIVO
+Ativo com pior contribuição relativa,IMAB11.SA
+Diferença de contribuição do pior ativo,-1.474514954580286e-17
+Melhor regime no teste,Expansão desinflacionária
+Diferença do melhor regime,0.0

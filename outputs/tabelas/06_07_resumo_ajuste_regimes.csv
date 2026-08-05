@@ -1,0 +1,16 @@
+﻿metrica,valor
+Meses de confirmação,1
+Data final do treino,31/12/2023
+Quantidade de meses de treino,48
+Quantidade de meses de avaliação,29
+Custo por turnover,0.001
+Índice final do modelo base na avaliação,128.30515983295578
+Índice final do modelo otimizado na avaliação,128.30515983295578
+Índice final do benchmark na avaliação,128.30515983295575
+Melhora do otimizado contra o modelo base,0.0
+Diferença do otimizado contra o benchmark,2.842170943040401e-14
+Retorno anualizado otimizado na avaliação,0.10864032468343088
+Retorno/volatilidade otimizado na avaliação,1.333922379073487
+Turnover otimizado na avaliação,0.567420023098733
+Status da avaliação,SUPEROU O BENCHMARK
+Observação metodológica,Os pesos foram selecionados somente com dados até 31/12/2023.

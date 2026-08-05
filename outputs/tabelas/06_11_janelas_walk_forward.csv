@@ -1,0 +1,4 @@
+﻿numero_recalibracao,indice_inicial_treino,indice_final_treino,indice_inicial_aplicacao,indice_final_aplicacao,data_inicial_treino,data_final_treino,data_inicial_aplicacao,data_final_aplicacao,quantidade_meses_treino,quantidade_meses_aplicacao
+1,0,47,48,59,2020-01-31,2023-12-31,2024-01-31,2024-12-31,48,12
+2,0,59,60,71,2020-01-31,2024-12-31,2025-01-31,2025-12-31,60,12
+3,0,71,72,76,2020-01-31,2025-12-31,2026-01-31,2026-05-31,72,5

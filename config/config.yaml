@@ -1,0 +1,1355 @@
+projeto:
+  nome: alocacao_regimes_macroeconomicos
+  versao: 1.0.0
+  descricao: 'Sistema quantitativo multimercado que coleta e valida ativos, seleciona representantes das
+    classes, identifica regimes macroeconômicos e realiza alocação de portfólio.
+
+    '
+  ambiente: desenvolvimento
+  etapa_atual: analise_exploratoria
+  modo_execucao: modelo_selecionado
+  moeda_base: BRL
+  timezone: America/Sao_Paulo
+  random_seed: 42
+  modelo_oficial_congelado: true
+  data_congelamento_modelo: '2026-07-30'
+caminhos:
+  raiz_dados: data
+  dados_brutos: data/raw
+  dados_processados: data/processed
+  dados_estado: data/state
+  cache: data/cache
+  mercado_bruto: data/raw/market
+  macro_bruto: data/raw/macro
+  focus_bruto: data/raw/focus
+  outputs: outputs
+  modelo_final: outputs/modelo_final
+  auditoria: outputs/auditoria
+  focus: outputs/focus
+  relatorios: outputs/relatorios
+  graficos: outputs/graficos
+  tabelas: outputs/tabelas
+  logs: outputs/logs
+  alertas: outputs/alertas
+  modelo_oficial:
+    configuracao: outputs/modelo_final/modelo_oficial.json
+    metricas: outputs/modelo_final/metricas_modelo_oficial.json
+    manifesto: outputs/modelo_final/manifesto_modelo_final.csv
+  selecao_ativos:
+    validacao_ativos_yfinance: data/processed/validacao_ativos_yfinance.csv
+    precos_ativos_utilizaveis: data/processed/precos_ativos_utilizaveis.csv
+    renda_fixa_encontrada: data/processed/renda_fixa_encontrada.csv
+    renda_fixa_aprovada: data/processed/renda_fixa_aprovada.csv
+    renda_fixa_modelo: data/processed/renda_fixa_modelo.csv
+    ativos_selecionados_modelo: data/processed/ativos_selecionados_modelo.csv
+    alocacoes_modelo_selecionado: outputs/modelo_final/alocacoes_modelo_selecionado.json
+portfolio:
+  valor_inicial: 1000000.0
+  moeda: BRL
+  indice_inicial_backtest: 100.0
+  exposicao_alvo: 1.0
+  exposicao_maxima: 2.0
+  usar_alavancagem: false
+  permitir_posicao_vendida: false
+  percentual_minimo_investido: 1.0
+  classe_caixa: RENDA_FIXA_POS_FIXADA
+  ativo_caixa: null
+  arredondamento_pesos_decimais: 6
+  tolerancia_soma_pesos: 1.0e-06
+selecao_ativos:
+  ativa: true
+  modo: ARQUIVO_SELECAO_FINAL
+  usar_todos_ativos_aprovados: false
+  exigir_aprovacao_manual: true
+  arquivo_validacao_ativos: data/processed/validacao_ativos_yfinance.csv
+  arquivo_precos_utilizaveis: data/processed/precos_ativos_utilizaveis.csv
+  arquivo_selecao_final: data/processed/ativos_selecionados_modelo.csv
+  observacao: Somente os ativos registrados em ativos_selecionados_modelo.csv são utilizados no modelo.
+    O arquivo de validação permanece como registro completo dos candidatos analisados.
+universo_candidatos_yfinance:
+  renda_variavel:
+  - ticker: BOVA11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBOVESPA
+  - ticker: BOVV11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBOVESPA
+  - ticker: BBOV11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBOVESPA
+  - ticker: BOVB11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBOVESPA
+  - ticker: PIBB11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBRX50
+  - ticker: BRAX11.SA
+    classe: RENDA_VARIAVEL_BRASIL_IBRX100
+  - ticker: GOVE11.SA
+    classe: RENDA_VARIAVEL_GOVERNANCA
+  - ticker: DIVO11.SA
+    classe: RENDA_VARIAVEL_DIVIDENDOS
+  - ticker: FIND11.SA
+    classe: RENDA_VARIAVEL_FINANCEIRO
+  - ticker: SMAL11.SA
+    classe: RENDA_VARIAVEL_SMALL_CAPS
+  - ticker: SMAC11.SA
+    classe: RENDA_VARIAVEL_SMALL_CAPS
+  - ticker: MATB11.SA
+    classe: RENDA_VARIAVEL_MATERIAIS
+  - ticker: ECOO11.SA
+    classe: RENDA_VARIAVEL_ESG
+  - ticker: ISUS11.SA
+    classe: RENDA_VARIAVEL_SUSTENTABILIDADE
+  - ticker: IVVB11.SA
+    classe: RENDA_VARIAVEL_EUA_SP500
+  - ticker: SPXI11.SA
+    classe: RENDA_VARIAVEL_EUA_SP500
+  - ticker: NASD11.SA
+    classe: RENDA_VARIAVEL_EUA_TECNOLOGIA
+  - ticker: WRLD11.SA
+    classe: RENDA_VARIAVEL_GLOBAL
+  - ticker: ACWI11.SA
+    classe: RENDA_VARIAVEL_GLOBAL
+  - ticker: XINA11.SA
+    classe: RENDA_VARIAVEL_CHINA
+  renda_fixa_negociada:
+  - ticker: IMAB11.SA
+    classe: RENDA_FIXA_INFLACAO_IMAB
+  - ticker: B5P211.SA
+    classe: RENDA_FIXA_INFLACAO_CURTA
+  - ticker: IRFM11.SA
+    classe: RENDA_FIXA_PREFIXADA
+  - ticker: FIXA11.SA
+    classe: RENDA_FIXA_PREFIXADA
+  - ticker: LFTS11.SA
+    classe: RENDA_FIXA_SELIC
+  - ticker: B5MB11.SA
+    classe: RENDA_FIXA_INFLACAO_IMAB5
+  - ticker: IB5M11.SA
+    classe: RENDA_FIXA_INFLACAO_IMAB5_MAIS
+  - ticker: IMBB11.SA
+    classe: RENDA_FIXA_INFLACAO_IMAB
+  - ticker: LFTB11.SA
+    classe: RENDA_FIXA_TESOURO_PUBLICO
+  - ticker: NTNS11.SA
+    classe: RENDA_FIXA_INFLACAO_CURTA
+  - ticker: DEBB11.SA
+    classe: RENDA_FIXA_DEBENTURES_DI
+  - ticker: BDAP11.SA
+    classe: RENDA_FIXA_DAP5
+  - ticker: LFIX11.SA
+    classe: RENDA_FIXA_LETRA_FINANCEIRA
+  - ticker: MARG11.SA
+    classe: RENDA_FIXA_DEBENTURES_DI
+  - ticker: NCDI11.SA
+    classe: RENDA_FIXA_SELIC
+  - ticker: NB0211.SA
+    classe: RENDA_FIXA_INFLACAO_2_ANOS
+  - ticker: NB0511.SA
+    classe: RENDA_FIXA_INFLACAO_5_ANOS
+  - ticker: NB1011.SA
+    classe: RENDA_FIXA_INFLACAO_10_ANOS
+  - ticker: LFTX11.SA
+    classe: RENDA_FIXA_SELIC_BAIXA_VOLATILIDADE
+  - ticker: JURO11.SA
+    classe: RENDA_FIXA_INFRAESTRUTURA
+  moedas:
+  - ticker: USDBRL=X
+    classe: MOEDA_DOLAR
+  - ticker: EURBRL=X
+    classe: MOEDA_EURO
+  - ticker: GBPBRL=X
+    classe: MOEDA_LIBRA
+  - ticker: JPYBRL=X
+    classe: MOEDA_IENE
+  - ticker: CNYBRL=X
+    classe: MOEDA_YUAN
+  - ticker: AUDBRL=X
+    classe: MOEDA_DOLAR_AUSTRALIANO
+  - ticker: CADBRL=X
+    classe: MOEDA_DOLAR_CANADENSE
+  - ticker: CHFBRL=X
+    classe: MOEDA_FRANCO_SUICO
+  - ticker: NZDBRL=X
+    classe: MOEDA_DOLAR_NEOZELANDES
+  - ticker: SEKBRL=X
+    classe: MOEDA_COROA_SUECA
+  - ticker: NOKBRL=X
+    classe: MOEDA_COROA_NORUEGUESA
+  - ticker: DKKBRL=X
+    classe: MOEDA_COROA_DINAMARQUESA
+  - ticker: HKDBRL=X
+    classe: MOEDA_DOLAR_HONG_KONG
+  - ticker: SGDBRL=X
+    classe: MOEDA_DOLAR_SINGAPURA
+  - ticker: MXNBRL=X
+    classe: MOEDA_PESO_MEXICANO
+  - ticker: ZARBRL=X
+    classe: MOEDA_RAND_SUL_AFRICANO
+  - ticker: INRBRL=X
+    classe: MOEDA_RUPIA_INDIANA
+  - ticker: KRWBRL=X
+    classe: MOEDA_WON_SUL_COREANO
+  - ticker: TRYBRL=X
+    classe: MOEDA_LIRA_TURCA
+  - ticker: PLNBRL=X
+    classe: MOEDA_ZLOTY_POLONES
+  commodities:
+  - ticker: GOLD11.SA
+    classe: COMMODITY_OURO_BRASIL
+  - ticker: GC=F
+    classe: COMMODITY_OURO
+  - ticker: SI=F
+    classe: COMMODITY_PRATA
+  - ticker: HG=F
+    classe: COMMODITY_COBRE
+  - ticker: CL=F
+    classe: COMMODITY_PETROLEO_WTI
+  - ticker: BZ=F
+    classe: COMMODITY_PETROLEO_BRENT
+  - ticker: NG=F
+    classe: COMMODITY_GAS_NATURAL
+  - ticker: RB=F
+    classe: COMMODITY_GASOLINA
+  - ticker: HO=F
+    classe: COMMODITY_OLEO_AQUECIMENTO
+  - ticker: PL=F
+    classe: COMMODITY_PLATINA
+  - ticker: PA=F
+    classe: COMMODITY_PALADIO
+  - ticker: ZC=F
+    classe: COMMODITY_MILHO
+  - ticker: ZS=F
+    classe: COMMODITY_SOJA
+  - ticker: ZW=F
+    classe: COMMODITY_TRIGO
+  - ticker: KC=F
+    classe: COMMODITY_CAFE
+  - ticker: SB=F
+    classe: COMMODITY_ACUCAR
+  - ticker: CC=F
+    classe: COMMODITY_CACAU
+  - ticker: CT=F
+    classe: COMMODITY_ALGODAO
+  - ticker: LE=F
+    classe: COMMODITY_GADO
+  - ticker: HE=F
+    classe: COMMODITY_SUINOS
+renda_fixa:
+  usar_ativo_fixo: false
+  fontes_resultados:
+    encontrada: data/processed/renda_fixa_encontrada.csv
+    aprovada: data/processed/renda_fixa_aprovada.csv
+    representantes_modelo: data/processed/renda_fixa_modelo.csv
+  categorias_modelo:
+    pos_fixada:
+      identificador: CDI
+      classe: RENDA_FIXA_POS_FIXADA
+      selecionada: false
+    inflacao:
+      identificador: IMA_B
+      classe: RENDA_FIXA_INFLACAO
+      selecionada: false
+    prefixada:
+      identificador: IRF_M
+      classe: RENDA_FIXA_PREFIXADA
+      selecionada: false
+  exigir_validacao_da_serie: true
+  exigir_data_inicial_compativel: true
+  exigir_aprovacao_manual: true
+coleta_yfinance:
+  ativa: true
+  fonte: yahoo_finance
+  periodo:
+    data_inicial: '2020-01-01'
+    data_final: null
+    usar_data_atual: true
+    adicionar_dias_data_final_yfinance: 1
+  requisicao:
+    intervalo: 1d
+    auto_adjust: false
+    actions: false
+    progress: false
+    threads: false
+    multi_level_index: false
+  tentativas:
+    quantidade_maxima: 3
+    timeout_segundos: 30
+    usar_espera_progressiva: true
+    multiplicador_espera_segundos: 2
+    intervalo_entre_ativos_segundos: 0.5
+  campos_obrigatorios:
+  - data
+  - ticker
+  - classe
+  - open
+  - high
+  - low
+  - close
+  - adj_close
+  - volume
+  preco_principal: adj_close
+  preco_alternativo: close
+  validacao:
+    data_limite_inicio: '2020-01-15'
+    tolerancia_final_dias: 10
+    cobertura_minima: 0.94
+    percentual_maximo_nulos: 0.01
+    maximo_dias_preco_congelado: 10
+    maximo_linhas_suspeitas_consecutivas: 3
+    maximo_intervalo_dias: 10
+    maximo_retorno_diario_absoluto: 0.5
+    percentual_maximo_ohlc_invalido: 0.001
+    exigir_sem_duplicados: true
+    exigir_precos_positivos: true
+    exigir_retorno_calculavel: true
+    volume_zero_permitido_para_moedas: true
+  saidas:
+    validacao_ativos: data/processed/validacao_ativos_yfinance.csv
+    precos_utilizaveis: data/processed/precos_ativos_utilizaveis.csv
+    renda_fixa_encontrada: data/processed/renda_fixa_encontrada.csv
+    renda_fixa_aprovada: data/processed/renda_fixa_aprovada.csv
+    renda_fixa_modelo: data/processed/renda_fixa_modelo.csv
+modelo_oficial:
+  ativo: true
+  congelado: true
+  arquivo_configuracao: outputs/modelo_final/modelo_oficial.json
+  arquivo_metricas: outputs/modelo_final/metricas_modelo_oficial.json
+  usar_ativos_registrados_no_json: true
+  usar_pesos_registrados_no_json: true
+  substituir_por_ativos_novos: false
+  alterar_resultados_historicos: false
+  permitir_recalibracao_retroativa: false
+  inicio_avaliacao: '2024-01-31'
+  fim_avaliacao: '2026-05-31'
+  classificacao: aprovado_com_ressalvas
+  aprovado_para_uso_experimental: true
+  aprovado_para_producao: false
+modelo_selecionado:
+  ativo: true
+  status: ativos_selecionados_aguardando_validacao
+  arquivo_ativos: data/processed/ativos_selecionados_modelo.csv
+  arquivo_alocacoes: outputs/modelo_final/alocacoes_modelo_selecionado.json
+  usar_ativos_do_arquivo_selecao: true
+  pesos_definidos: false
+  parametros_definidos: false
+  backtest_executado: false
+  validacao_executada: false
+  auditoria_executada: false
+  permitir_execucao_operacional: false
+  etapas_obrigatorias:
+  - selecao_ativos
+  - processamento_dados
+  - analise_exploratoria
+  - construcao_regimes
+  - definicao_alocacoes
+  - backtest
+  - otimizacao
+  - walk_forward
+  - auditoria
+coleta_macro:
+  ativa: true
+  fonte_principal: banco_central_brasil
+  periodo_modelo_oficial:
+    inicio: '2004-01-01'
+    fim: '2026-05-31'
+  periodo_operacional:
+    inicio: '2004-01-01'
+    fim: null
+    usar_ultima_data_disponivel: true
+  indicadores_principais:
+    ipca:
+      ativo: true
+      nome_modelo: IPCA
+      codigo_sgs: 433
+      frequencia_origem: mensal
+      arquivo_saida: data/raw/macro/ipca.csv
+    ibc_br:
+      ativo: true
+      nome_modelo: IBC_BR
+      codigo_sgs: 24363
+      frequencia_origem: mensal
+      dessazonalizado: false
+      arquivo_saida: data/raw/macro/ibc_br.csv
+    ibc_br_dessazonalizado:
+      ativo: true
+      nome_modelo: IBC_BR_DESSAZONALIZADO
+      codigo_sgs: 24364
+      frequencia_origem: mensal
+      dessazonalizado: true
+      arquivo_saida: data/raw/macro/ibc_br_dessazonalizado.csv
+    cdi:
+      ativo: true
+      nome_modelo: CDI
+      codigo_sgs: 12
+      frequencia_origem: diaria
+      arquivo_saida: data/raw/macro/cdi.csv
+  indicadores_auxiliares:
+    selic_meta:
+      ativo: true
+      frequencia_origem: por_reuniao
+      influencia_regime: false
+      arquivo_saida: data/raw/macro/selic_meta.csv
+    selic_efetiva:
+      ativo: true
+      frequencia_origem: diaria
+      influencia_regime: false
+      arquivo_saida: data/raw/macro/selic_efetiva.csv
+    pib:
+      ativo: false
+      frequencia_origem: trimestral
+      influencia_regime: false
+      finalidade: validacao
+      arquivo_saida: data/raw/macro/pib.csv
+    producao_industrial:
+      ativo: false
+      frequencia_origem: mensal
+      influencia_regime: false
+      finalidade: experimento
+      arquivo_saida: data/raw/macro/producao_industrial.csv
+  atualizacao:
+    atualizar_automaticamente: false
+    substituir_arquivos_existentes: false
+    acrescentar_novos_registros: true
+    manter_historico: true
+    registrar_data_coleta: true
+    registrar_data_publicacao: true
+    registrar_ultima_data_disponivel: true
+    registrar_fonte: true
+periodos:
+  desenvolvimento:
+    inicio: '2020-01-01'
+    fim: '2023-12-31'
+    permitir_ajuste_parametros: true
+  validacao:
+    inicio: '2024-01-01'
+    fim: '2025-12-31'
+    permitir_ajuste_parametros: false
+  teste_fora_amostra:
+    inicio: '2026-01-01'
+    fim: null
+    usar_ultima_data_disponivel: true
+    permitir_ajuste_parametros: false
+  teste_focus_ao_vivo:
+    inicio: '2026-08-02'
+    fim: null
+    influencia_carteira: false
+disponibilidade_dados:
+  usar_apenas_dados_publicados_na_data: true
+  usar_ultimo_valor_conhecido: true
+  preservar_data_publicacao: true
+  preservar_historico_revisoes: true
+  permitir_dados_futuros: false
+  permitir_backfill: false
+  alinhar_por:
+    mercado: data_negociacao
+    macro: data_publicacao
+    focus: data_publicacao
+  dado_indisponivel:
+    usar_valor_futuro: false
+    usar_ultimo_valor_valido: true
+    gerar_alerta: true
+qualidade_dados:
+  verificar_duplicados: true
+  verificar_nulos: true
+  verificar_precos_nao_positivos: true
+  verificar_frequencia: true
+  verificar_lacunas_temporais: true
+  verificar_periodo_por_ativo: true
+  verificar_ordem_cronologica: true
+  verificar_colunas_obrigatorias: true
+  verificar_tipos_dados: true
+  verificar_valores_infinitos: true
+  limite_percentual_nulos_alerta: 0.05
+  limite_percentual_nulos_critico: 0.2
+  interromper_execucao_em_erro_critico: true
+  continuar_em_alerta: true
+  gerar_relatorio_qualidade: true
+  arquivo_saida: data/processed/resumo_qualidade.csv
+processamento:
+  precos:
+    frequencia_origem: diaria
+    frequencia_modelo: mensal
+    coluna_preco_preferencial: adj_close
+    coluna_preco_alternativa: close
+    metodo_retorno: composto
+    normalizar_indice_inicial: 100.0
+    tratamento_nulos:
+      metodo: remover_periodos_sem_preco
+      permitir_backfill: false
+  retornos:
+    calcular_diario: true
+    calcular_mensal: true
+    calcular_acumulado: true
+    metodo_mensal: composto
+  macro:
+    frequencia_modelo: mensal
+    alinhar_por_data_publicacao: true
+    preenchimento: ultimo_valor_conhecido
+    permitir_backfill: false
+  cdi:
+    frequencia_origem: diaria
+    frequencia_modelo: mensal
+    metodo_agregacao: composto
+  focus:
+    frequencia_modelo: semanal
+    alinhar_por_data_publicacao: true
+    usar_ultimo_focus_disponivel: true
+    permitir_backfill: false
+  arquivos_saida:
+    precos_tratados: data/processed/precos_ativos_tratados.csv
+    retornos_diarios: data/processed/retornos_ativos_diarios.csv
+    retornos_mensais: data/processed/retornos_ativos_mensais.csv
+    macro_mensal: data/processed/dados_macro_mensais.csv
+macro:
+  crescimento:
+    serie_base: IBC_BR
+    variavel_modelo: IBC_BR_TENDENCIA_3M_PCT
+    janela_meses: 3
+    limite_classificacao: 0
+    classificacao:
+      acima_limite: ALTA
+      abaixo_ou_igual_limite: QUEDA
+  inflacao:
+    serie_base: IPCA
+    variavel_modelo: IPCA_VARIACAO_3M_PP
+    janela_meses: 3
+    limite_classificacao: 0
+    classificacao:
+      acima_limite: ALTA
+      abaixo_ou_igual_limite: QUEDA
+regimes:
+  lista:
+  - EXPANSAO_DESINFLACIONARIA
+  - EXPANSAO_INFLACIONARIA
+  - ESTAGFLACAO
+  - RECESSAO_DESINFLACIONARIA
+  regras:
+    EXPANSAO_DESINFLACIONARIA:
+      crescimento: ALTA
+      inflacao: QUEDA
+    EXPANSAO_INFLACIONARIA:
+      crescimento: ALTA
+      inflacao: ALTA
+    ESTAGFLACAO:
+      crescimento: QUEDA
+      inflacao: ALTA
+    RECESSAO_DESINFLACIONARIA:
+      crescimento: QUEDA
+      inflacao: QUEDA
+  arquivos_saida:
+    classificacao: data/processed/regimes_macroeconomicos.csv
+    resumo: data/processed/resumo_regimes_macroeconomicos.csv
+    transicoes: data/processed/transicoes_regimes_macroeconomicos.csv
+    validacoes: outputs/tabelas/03_validacoes_regimes_macroeconomicos.csv
+sinal:
+  modelo_oficial:
+    frequencia: mensal
+    defasagem_meses: 1
+    confirmacao_meses: 3
+    validado: true
+  modelo_operacional:
+    frequencia_monitoramento: semanal
+    confirmacao_semanas: 3
+    validado: false
+    modo: experimental
+    alterar_carteira_semanalmente: false
+    registrar_possivel_mudanca: true
+    manter_regime_anterior_ate_confirmacao: true
+    sinal_nao_confirmado:
+      alterar_pesos: false
+      gerar_alerta: true
+alocacao:
+  modelo_oficial:
+    fonte_pesos: outputs/modelo_final/modelo_oficial.json
+    usar_pesos_do_arquivo: false
+  modelo_selecionado:
+    fonte_pesos: outputs/modelo_final/alocacoes_modelo_selecionado.json
+    pesos_definidos: false
+    permitir_pesos_provisorios: true
+    exigir_soma_cem_porcento: true
+    exigir_ativos_selecionados: true
+    exigir_backtest: true
+    exigir_validacao: true
+    usar_ativos_aprovados_coleta: true
+  pesos_por_regime: {}
+  arquivos_saida:
+    base_mensal: data/processed/alocacao_portfolio_mensal.csv
+    metricas: outputs/tabelas/04_metricas_portfolio.csv
+    pesos: outputs/tabelas/04_pesos_por_regime.csv
+    validacoes: outputs/tabelas/04_validacoes_alocacao.csv
+    ativos_utilizados: outputs/tabelas/04_ativos_aprovados_utilizados.csv
+  benchmark_estatico:
+    metodo: pesos_iguais
+    usar_apenas_ativos_selecionados: true
+    usar_todos_ativos_aprovados: false
+  fonte_ativos: data/processed/precos_ativos_utilizaveis.csv
+  usar_todos_ativos_aprovados: false
+  distribuir_peso_da_classe_entre_tickers: true
+  pesos_iniciais:
+    gerar_automaticamente: true
+    metodo: PESOS_IGUAIS_ENTRE_ATIVOS_SELECIONADOS
+    usar_quando_pesos_finais_ausentes: true
+    arquivo_saida: outputs/modelo_final/alocacoes_iniciais_automaticas.json
+    provisorios: true
+    observacao: Os pesos iniciais são distribuídos igualmente entre os ativos selecionados. A etapa 06
+      otimiza os pesos finais.
+frequencias:
+  dados_mercado: diaria
+  dados_macro: conforme_fonte
+  focus: semanal
+  sinal_modelo_oficial: mensal
+  sinal_modelo_operacional: semanal
+  rebalanceamento: mensal
+  revisao_modelo: trimestral
+  consolidacao_resultados: semestral
+  recalibracao: anual
+calendario:
+  timezone: America/Sao_Paulo
+  calendario_mercado: B3
+  considerar_finais_semana: true
+  considerar_feriados: true
+  usar_dias_uteis: true
+  regra_data_invalida: proximo_dia_util
+  regra_rebalanceamento: ultimo_dia_util_mes
+  previsao_focus:
+    dia_semana: domingo
+    horario: null
+  focus_oficial:
+    dia_semana: segunda-feira
+    horario: null
+  monitoramento_semanal:
+    dia_semana: segunda-feira
+    horario: null
+  rebalanceamento:
+    regra: ultimo_dia_util_mes
+    horario: null
+  revisao_trimestral:
+    regra: primeiro_dia_util_apos_fim_trimestre
+    horario: null
+agenda_analises:
+  semanal:
+    ativo: true
+    objetivo: monitoramento_macro_e_focus
+    atualizar_focus: true
+    atualizar_dados_disponiveis: true
+    recalcular_cenario_macro: true
+    verificar_mudanca_regime: true
+    registrar_sinal: true
+    gerar_relatorio: true
+    alterar_pesos_portfolio: false
+  mensal:
+    ativo: true
+    objetivo: classificacao_regime_e_rebalanceamento
+    confirmar_regime: true
+    calcular_pesos_alvo: true
+    comparar_pesos_atuais: true
+    calcular_operacoes: true
+    validar_liquidez: true
+    aplicar_custos: true
+    rebalancear_portfolio: true
+    gerar_relatorio: true
+  trimestral:
+    ativo: true
+    objetivo: revisao_modelo
+    analisar_desempenho: true
+    analisar_risco: true
+    analisar_drawdown: true
+    analisar_turnover: true
+    comparar_benchmark: true
+    revisar_indicadores: true
+    revisar_universo_ativos: true
+    alterar_parametros_automaticamente: false
+    gerar_relatorio: true
+  semestral:
+    ativo: true
+    objetivo: consolidacao_resultados
+    analisar_robustez: true
+    analisar_desempenho_por_regime: true
+    comparar_modelos: true
+    comparar_benchmark: true
+    gerar_relatorio: true
+    alterar_parametros_automaticamente: false
+  anual:
+    ativo: true
+    objetivo: recalibracao_walk_forward
+    recalibrar_modelo: true
+    revisar_pesos: true
+    revisar_parametros: true
+    comparar_benchmark: true
+    comparar_desafiante: true
+    gerar_relatorio: true
+    exigir_aprovacao_manual: true
+focus:
+  ativo: true
+  frequencia_execucao: semanal
+  influencia_portfolio: false
+  modo: experimental
+  oficial:
+    ativo: true
+    fonte: banco_central_brasil
+    tipo_expectativa: anual
+    estatistica: mediana
+    indicadores:
+    - IPCA
+    - PIB_TOTAL
+    - SELIC
+    - CAMBIO
+    periodo_historico:
+      inicio: '2020-01-01'
+      fim: null
+      usar_ultima_data_disponivel: true
+    preservar_data_publicacao: true
+    preservar_historico_previsoes: true
+    usar_apenas_dados_disponiveis_na_data: true
+    arquivo_saida: data/raw/focus/focus_oficial.csv
+  previsao_modelo:
+    ativo: true
+    status: experimental
+    prever_proxima_publicacao: true
+    horizonte_previsao_semanas: 1
+    indicadores:
+    - IPCA
+    - PIB_TOTAL
+    - SELIC
+    - CAMBIO
+    modelo: null
+    janela_treinamento_semanas: null
+    gerar_intervalo_confianca: true
+    gerar_direcao_prevista: true
+    alterar_pesos_portfolio: false
+    variaveis_entrada:
+      historico_focus: true
+      curva_juros: true
+      dolar: true
+      inflacao_implicita: true
+      commodities: true
+      indices_atividade: true
+      ipca: true
+      pib: true
+      emprego: true
+      juros: true
+    arquivo_saida: data/processed/focus/previsoes_modelo.csv
+  baseline:
+    ativo: true
+    metodo: repetir_ultimo_focus_disponivel
+    arquivo_saida: data/processed/focus/previsoes_baseline.csv
+  comparacao:
+    ativo: true
+    fontes:
+    - focus_oficial
+    - previsao_modelo
+    - baseline
+    alinhar_por_data_publicacao: true
+    comparar_mesmo_indicador: true
+    comparar_mesmo_horizonte: true
+    usar_apenas_informacao_disponivel_na_data: true
+    metricas:
+    - MAE
+    - RMSE
+    - MAPE
+    - ACURACIA_DIRECIONAL
+    - ERRO_PONTOS_PERCENTUAIS
+    - DESEMPENHO_CONTRA_BASELINE
+    consolidacoes:
+    - semanal
+    - mensal
+    - trimestral
+    - semestral
+    - anual
+    arquivo_saida: outputs/focus/comparacao_previsoes.csv
+  uso_como_sinal:
+    peso_focus_oficial: 1.0
+    peso_previsao_modelo: 0.0
+    influencia_carteira: false
+    pesos_experimentais_testar:
+    - 0.05
+    - 0.1
+    - 0.2
+    exigir_validacao_fora_amostra: true
+    exigir_superacao_baseline: true
+    exigir_aprovacao_manual: true
+dados_internacionais:
+  estados_unidos:
+    ativo: false
+    influencia_modelo_oficial: false
+    wei:
+      ativo: false
+      frequencia: semanal
+    survey_consumer_expectations:
+      ativo: false
+      frequencia: mensal
+    survey_professional_forecasters:
+      ativo: false
+      frequencia: trimestral
+    inflacao:
+      ativo: false
+      frequencia: calendario_divulgacao
+    emprego:
+      ativo: false
+      frequencia: calendario_divulgacao
+    pib:
+      ativo: false
+      frequencia: calendario_divulgacao
+    juros:
+      ativo: false
+      frequencia: calendario_divulgacao
+custos:
+  transacao_bps: 10
+  slippage_bps: null
+  aplicar_no_backtest: true
+  aplicar_no_rebalanceamento: true
+  custo_minimo_operacao_brl: null
+  custo_fixo_operacao_brl: null
+risco_liquidez:
+  peso_minimo_por_ativo: 0.0
+  peso_maximo_por_ativo: null
+  peso_maximo_por_classe: null
+  turnover_maximo_mensal: null
+  janela_volume_dias: null
+  participacao_maxima_volume: null
+  validar_exposicao_total: true
+  validar_liquidez_antes_operacao: true
+  impedir_operacao_fora_limite: true
+  gerar_alerta_limite: true
+  definir_limites_apos_selecao_ativos: true
+otimizacao:
+  ativa: true
+  status: pronta_para_execucao
+  periodo_permitido:
+    inicio: '2020-01-01'
+    fim: '2023-12-31'
+  confirmacoes_meses_testar:
+  - 1
+  - 2
+  - 3
+  pesos_renda_fixa_testar:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  alterar_parametros_no_desenvolvimento: true
+  alterar_parametros_na_validacao: false
+  alterar_parametros_no_teste: false
+  selecionar_apenas_com_dados_treino: true
+  congelar_parametros_apos_selecao: true
+  ativos_adicionais_desejados:
+  - CDI
+  - IMAB_OFICIAL_PARCIAL
+  janelas_confirmacao:
+  - 1
+  - 2
+  - 3
+  alfas_encolhimento:
+  - 0.0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+  betas_encolhimento_regime:
+  - 0.0
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+  minimo_meses_classificacao_regime: 6
+  limite_critico_regime: -0.01
+  minimo_meses_regime_treino: 6
+  pesos_cdi_testados:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  minimo_meses_treino_cdi: 36
+  minimo_meses_avaliacao_cdi: 12
+  meses_treino_inicial_walk_forward: 48
+  meses_entre_recalibracoes_walk_forward: 12
+  proporcao_minima_rolling_walk_forward: 0.5
+  proporcao_minima_confirmacao_modal_walk_forward: 0.5
+  mudanca_media_maxima_pesos_cdi_walk_forward: 0.25
+  criterios_minimos_aprovacao_walk_forward: 5
+  criterios_minimos_robustez_parcial_walk_forward: 3
+  arquivos_saida:
+    modelo_oficial: outputs/modelo_final/modelo_oficial.json
+    metricas_modelo_oficial: outputs/modelo_final/metricas_modelo_oficial.json
+    manifesto: outputs/modelo_final/manifesto_arquivos.csv
+    resumo_walk_forward: outputs/tabelas/06_11_resumo_walk_forward.csv
+    decisao_final: outputs/tabelas/06_12_decisao_final_modelo.csv
+walk_forward:
+  ativo: false
+  status: aguardando_otimizacao
+  inicio_avaliacao: '2024-01-31'
+  fim_avaliacao: null
+  usar_ultima_data_disponivel: true
+  frequencia_recalibracao: anual
+  usar_apenas_dados_anteriores: true
+  periodos:
+  - treino_ate: '2023-12-31'
+    aplicacao_inicio: '2024-01-01'
+    aplicacao_fim: '2024-12-31'
+  - treino_ate: '2024-12-31'
+    aplicacao_inicio: '2025-01-01'
+    aplicacao_fim: '2025-12-31'
+  - treino_ate: '2025-12-31'
+    aplicacao_inicio: '2026-01-01'
+    aplicacao_fim: null
+  meses_treino_inicial: 48
+  meses_entre_recalibracoes: 12
+benchmark:
+  principal:
+    nome: carteira_pesos_iguais
+    tipo: pesos_iguais
+    fonte_ativos: data/processed/ativos_selecionados_modelo.csv
+    ativos: null
+    calcular_peso_automaticamente: true
+    formula_peso: um_dividido_pela_quantidade_de_ativos
+    rebalanceamento: mensal
+  renda_fixa:
+    nome: benchmark_renda_fixa
+    fonte_ativo: data/processed/ativos_selecionados_modelo.csv
+    classe_modelo: RENDA_FIXA
+    ativo: null
+  desafiante:
+    nome: modelo_anterior
+    arquivo: outputs/modelo_final/modelo_oficial.json
+    ativo: true
+  comparar_em_todas_avaliacoes: true
+avaliacao:
+  carteira:
+    metricas:
+    - retorno_acumulado
+    - retorno_anualizado
+    - volatilidade_anualizada
+    - retorno_volatilidade
+    - sharpe_excesso_renda_fixa
+    - sortino_excesso_renda_fixa
+    - calmar
+    - drawdown_maximo
+    - turnover_total
+    - custos_totais
+    - percentual_meses_positivos
+    - retorno_rolling
+  focus:
+    metricas:
+    - MAE
+    - RMSE
+    - MAPE
+    - ACURACIA_DIRECIONAL
+    - DESEMPENHO_POR_INDICADOR
+    - DESEMPENHO_POR_HORIZONTE
+    - COMPARACAO_BASELINE
+resiliencia_coleta:
+  tentativas_maximas: 3
+  intervalo_tentativas_segundos: 10
+  timeout_segundos: 60
+  usar_backoff_exponencial: true
+  comportamento_falha:
+    interromper_em_falha_serie_principal: true
+    continuar_em_falha_serie_auxiliar: true
+    usar_cache_existente: true
+    gerar_alerta: true
+  cache:
+    ativo: true
+    diretorio: data/cache
+    validade_horas: 24
+execucao:
+  permitir_reexecucao_mesma_data: false
+  sobrescrever_resultados: false
+  continuar_apos_erro_nao_critico: true
+  salvar_resultados_parciais: true
+  etapas:
+    coleta_candidatos:
+      ativo: true
+      arquivo: src/coletar_ativo_yfinance.py
+      ordem: 10
+      critica: true
+    validacao_candidatos:
+      ativo: true
+      arquivo: src/coletar_ativo_yfinance.py
+      ordem: 20
+      critica: true
+    coleta_macro:
+      ativo: true
+      arquivo: src/01_coleta_dados.py
+      ordem: 40
+      critica: true
+    qualidade:
+      ativo: true
+      arquivo: src/01_coleta_dados.py
+      ordem: 50
+      critica: true
+    processamento:
+      ativo: false
+      arquivo: src/01_coleta_dados.py
+      ordem: 60
+      critica: true
+    analise_exploratoria:
+      ativo: true
+      arquivo: src/02_analise_exploratoria.py
+      ordem: 70
+      critica: true
+    classificacao_regime:
+      ativo: true
+      arquivo: src/03_regimes_macroeconomicos.py
+      ordem: 80
+      critica: true
+    alocacao:
+      ativo: true
+      arquivo: src/04_alocacao_portfolio.py
+      ordem: 90
+      critica: true
+    backtest:
+      ativo: true
+      arquivo: src/05_backtest.py
+      ordem: 100
+      critica: true
+    otimizacao:
+      ativo: true
+      arquivo: src/06_otimizacao_estrategia.py
+      ordem: 110
+      critica: true
+    metricas:
+      ativo: true
+      arquivo: src/07_analise_resultados_finais.py
+      ordem: 120
+      critica: true
+    relatorios:
+      ativo: true
+      arquivo: src/07_analise_resultados_finais.py
+      ordem: 130
+      critica: false
+    auditoria:
+      ativo: true
+      arquivo: src/08_auditoria_global.py
+      ordem: 140
+      critica: true
+  criar_identificador_execucao: true
+  formato_identificador: '%Y%m%d_%H%M%S'
+  arquivo_controle: data/state/execucoes.csv
+estado_modelo:
+  arquivo_regime_atual: data/state/regime_atual.json
+  arquivo_portfolio_atual: data/state/portfolio_atual.json
+  arquivo_historico_regimes: data/state/historico_regimes.csv
+  arquivo_rebalanceamentos: data/state/rebalanceamentos.csv
+  arquivo_previsoes_focus: data/state/previsoes_focus.csv
+  arquivo_execucoes: data/state/execucoes.csv
+  salvar_regime_detectado: true
+  salvar_regime_confirmado: true
+  salvar_periodos_consecutivos: true
+  salvar_pesos_atuais: true
+  salvar_pesos_desejados: true
+  salvar_data_ultimo_rebalanceamento: true
+logs:
+  ativo: true
+  nivel: INFO
+  niveis_permitidos:
+  - DEBUG
+  - INFO
+  - WARNING
+  - ERROR
+  - CRITICAL
+  diretorio: outputs/logs
+  arquivo: execucao.log
+  registrar_console: true
+  registrar_arquivo: true
+  registrar:
+    inicio_execucao: true
+    fim_execucao: true
+    duracao_etapas: true
+    arquivos_lidos: true
+    arquivos_salvos: true
+    parametros_utilizados: true
+    alertas: true
+    erros: true
+    traceback: true
+  rotacao:
+    ativo: true
+    tamanho_maximo_mb: 10
+    quantidade_backups: 5
+alertas:
+  ativo: true
+  tipos:
+    candidato_reprovado: true
+    candidato_aprovado: true
+    selecao_final_pendente: true
+    mudanca_regime_possivel: true
+    mudanca_regime_confirmada: true
+    dado_ausente: true
+    dado_desatualizado: true
+    erro_coleta: true
+    erro_processamento: true
+    limite_risco: true
+    limite_liquidez: true
+    pesos_invalidos: true
+    previsao_focus_gerada: true
+    comparacao_focus_disponivel: true
+  canais:
+    console: true
+    arquivo: true
+    email: false
+  arquivo_saida: outputs/alertas/alertas.csv
+relatorios:
+  ativo: true
+  formatos:
+    csv: true
+    json: true
+    png: true
+    pdf: false
+    parquet: false
+  selecao_ativos:
+    ativo: true
+    incluir:
+    - candidatos_analisados
+    - candidatos_aprovados
+    - candidatos_com_erro
+    - cobertura_historica
+    - percentual_nulos
+    - intervalos_sem_dados
+    - precos_congelados
+    - retornos_extremos
+    - consistencia_ohlc
+    - renda_fixa_encontrada
+    - renda_fixa_aprovada
+    - ativos_selecionados
+  semanal:
+    ativo: true
+    incluir:
+    - regime_detectado
+    - regime_confirmado
+    - sinais_nao_confirmados
+    - focus_oficial
+    - previsao_focus
+    - comparacao_focus
+    - alertas
+  mensal:
+    ativo: true
+    incluir:
+    - pesos_atuais
+    - pesos_alvo
+    - operacoes
+    - custos
+    - retorno_mensal
+    - benchmark
+    - drawdown
+  trimestral:
+    ativo: true
+    incluir:
+    - retorno_acumulado
+    - volatilidade
+    - drawdown
+    - turnover
+    - custos
+    - benchmark
+    - desafiante
+    - desempenho_por_regime
+  semestral:
+    ativo: true
+    incluir:
+    - robustez
+    - sensibilidade
+    - desempenho_por_regime
+    - comparacao_modelos
+  anual:
+    ativo: true
+    incluir:
+    - recalibracao
+    - walk_forward
+    - metricas_completas
+    - benchmark
+    - desafiante
+    - auditoria
+  diretorio: outputs/relatorios
+graficos:
+  ativo: true
+  formato: png
+  dpi: 150
+  gerar:
+    qualidade_candidatos: true
+    cobertura_por_ativo: true
+    periodo_disponivel_por_ativo: true
+    patrimonio_acumulado: true
+    drawdown: true
+    pesos_portfolio: true
+    regimes_historicos: true
+    retorno_por_regime: true
+    volatilidade_movel: true
+    correlacao_ativos: true
+    comparacao_benchmark: true
+    comparacao_focus: true
+    erro_focus_por_indicador: true
+  diretorio: outputs/graficos
+credenciais:
+  usar_variaveis_ambiente: true
+  variaveis:
+    api_key_market_data: MARKET_DATA_API_KEY
+    api_key_macro_data: MACRO_DATA_API_KEY
+    email_usuario: ALERT_EMAIL_USER
+    email_senha: ALERT_EMAIL_PASSWORD
+  falhar_se_credencial_opcional_ausente: false
+  falhar_se_credencial_obrigatoria_ausente: true
+validacao_config:
+  ativa: true
+  interromper_em_erro: true
+  validar:
+    secoes_obrigatorias: true
+    tipos_dados: true
+    datas: true
+    ordem_periodos: true
+    caminhos: true
+    universo_candidatos: true
+    arquivos_selecao: true
+    classes_modelo: true
+    regimes: true
+    pesos: true
+    exposicao: true
+    custos: true
+    frequencias: true
+  regras:
+    candidatos_nao_sao_ativos_finais: true
+    selecao_final_deve_vir_do_arquivo: true
+    ativo_final_deve_estar_na_lista_aprovada: true
+    exigir_um_ativo_por_classe: true
+    impedir_ticker_final_nulo_apos_selecao: true
+    impedir_backtest_sem_selecao_final: true
+    impedir_modelo_operacional_sem_selecao_final: true
+    pesos_devem_somar_um: true
+    pesos_devem_corresponder_classes_selecionadas: true
+    exposicao_alvo_nao_pode_superar_maxima: true
+    alavancagem_false_limita_exposicao_a_um: true
+    data_inicio_deve_ser_anterior_data_fim: true
+    validacao_nao_pode_ajustar_parametros: true
+    teste_nao_pode_ajustar_parametros: true
+    focus_experimental_nao_pode_alterar_carteira: true
+    parametros_nulos_nao_podem_ser_usados_em_producao: true
+  tolerancias:
+    soma_pesos: 1.0e-06
+    comparacao_metricas: 0.0001
+governanca:
+  modelo_oficial_congelado: true
+  permitir_alteracao_retroativa: false
+  candidatos_yfinance_nao_sao_ativos_oficiais: true
+  ativos_oficiais_dependem_de_selecao: true
+  alterar_ativos_automaticamente: false
+  alterar_pesos_automaticamente: false
+  alterar_parametros_automaticamente: false
+  exigir_aprovacao_manual_para:
+  - selecionar_ativos_finais
+  - alterar_universo_candidatos
+  - alterar_ativos_selecionados
+  - alterar_pesos
+  - alterar_regra_regime
+  - alterar_confirmacao
+  - ativar_previsao_focus_na_carteira
+  - ativar_alavancagem
+  - promover_modelo_experimental
+  - alterar_periodo_validacao
+  - alterar_benchmark
+  previsao_focus_inicialmente_apenas_alerta: true
+  modelo_selecionado_aprovado_para_producao: false
+  modelo_selecionado_aprovado_para_uso_experimental: false
+  classificacao_atual: ativos_selecionados_aguardando_validacao
+backtest:
+  arquivo_entrada: data/processed/alocacao_portfolio_mensal.csv
+  frequencia: mensal
+  periodos_por_ano: 12
+  periodos_janela: 12
+  valor_inicial: 100.0
+  custo_por_turnover: 0.001
+  cobrar_custo_inicial: true
+  usar_cdi_taxa_livre_risco: true
+  nivel_var: 0.95
+  cenarios_custo:
+  - 0.0
+  - 0.0005
+  - 0.001
+  - 0.0015
+  - 0.002
+  - 0.003
+  - 0.005
+  limite_inferior_break_even: 0.0
+  limite_superior_break_even: 0.05
+  maximo_iteracoes_break_even: 100
+  tolerancia_break_even: 1.0e-08
+  arquivos_saida:
+    backtest_completo: data/processed/backtest_portfolio_mensal.csv
+    resumo_turnover: outputs/tabelas/05_resumo_turnover_custos.csv
+    custos_mensais: outputs/tabelas/05_turnover_custos_mensal.csv
+    metricas: outputs/tabelas/05_metricas_backtest.csv
+    metricas_formatadas: outputs/tabelas/05_metricas_backtest_formatadas.csv
+    desempenho_regimes: outputs/tabelas/05_desempenho_por_regime.csv
+    contribuicao_regimes: outputs/tabelas/05_contribuicao_media_por_regime.csv
+    sensibilidade: outputs/tabelas/05_sensibilidade_custos.csv
+    break_even: outputs/tabelas/05_custo_break_even.csv
+    resultados_anuais: outputs/tabelas/05_resultados_anuais.csv
+    metricas_moveis: outputs/tabelas/05_metricas_moveis_12m.csv
+    resumo_final: outputs/tabelas/05_resumo_final_backtest.csv
+    diagnostico: outputs/tabelas/05_diagnostico_estrategia.csv
+    configuracoes: outputs/tabelas/05_configuracoes_backtest.csv
+    validacoes: outputs/tabelas/05_validacao_final_backtest.csv
+analise_resultados_finais:
+  ativa: true
+  status: pronta_para_execucao
+  arquivo: 07_analise_resultados_finais.py
+  periodos_por_ano: 12
+  valor_inicial: 100.0
+  janela_curta_meses: 6
+  janela_longa_meses: 12
+  quantidade_meses_estresse: 5
+  minimo_meses_amostra_regime: 6
+  cenarios_analisados:
+  - WALK_FORWARD
+  - MODELO_FIXO_CELULA_9
+  - MODELO_ANTERIOR_SEM_CDI
+  - BENCHMARK_5_ATIVOS
+  - CARTEIRA_ESTATICA
+  - CDI_100
+  arquivos_entrada:
+    modelo_oficial: outputs/modelo_final/modelo_oficial.json
+    metricas_modelo_oficial: outputs/modelo_final/metricas_modelo_oficial.json
+    manifesto: outputs/modelo_final/manifesto_arquivos.csv
+    metricas_finais: outputs/tabelas/06_12_metricas_finais_modelos.csv
+    series_finais: outputs/tabelas/06_12_series_modelos_finais.csv
+    pesos_oficiais: outputs/tabelas/06_12_pesos_oficiais_atuais.csv
+  arquivos_saida:
+    inventario: outputs/tabelas/07_01_inventario_arquivos_finais.csv
+    comparacao_desempenho_risco: outputs/tabelas/07_02_comparacao_desempenho_risco.csv
+    desempenho_por_regime: outputs/tabelas/07_03_desempenho_por_regime.csv
+    series_rolling: outputs/tabelas/07_04_series_rolling.csv
+    scorecard_executivo: outputs/tabelas/07_05_scorecard_executivo.csv
+    resumo_executivo: outputs/tabelas/07_05_resumo_executivo.csv
+    validacoes_tecnicas: outputs/tabelas/07_05_validacoes_tecnicas.csv
+auditoria:
+  ativa: true
+  status: pronta_para_execucao
+  arquivo: 08_auditoria_global.py
+  continuar_apos_erro_etapa: true
+  falhar_em_achado_critico: true
+  inventariar_ambiente_virtual: false
+  scripts_esperados:
+  - src/coletar_ativo_yfinance.py
+  - src/01_coleta_dados.py
+  - src/02_analise_exploratoria.py
+  - src/03_regimes_macroeconomicos.py
+  - src/04_alocacao_portfolio.py
+  - src/05_backtest.py
+  - src/06_otimizacao_estrategia.py
+  - src/07_analise_resultados_finais.py
+  - src/08_auditoria_global.py
+  - main.py
+  verificacoes:
+    inventario_arquivos: true
+    consistencia_arquivos: true
+    vazamento_temporal: true
+    recalculo_metricas: true
+    robustez_overfitting: true
+    diagnostico_final: true
+  arquivos_saida:
+    status_execucao: outputs/auditoria/08_00_status_execucao_etapas.csv
+    inventario: outputs/auditoria/08_01_inventario_arquivos.csv
+    validacoes_consistencia: outputs/auditoria/08_02_validacoes_consistencia.csv
+    validacoes_temporais: outputs/auditoria/08_03_validacoes_vazamento_temporal.csv
+    metricas_recalculadas: outputs/auditoria/08_04_metricas_recalculadas.csv
+    riscos_overfitting: outputs/auditoria/08_05_riscos_overfitting.csv
+    achados_consolidados: outputs/auditoria/08_06_achados_consolidados_corrigido.csv
+    diagnostico_final: outputs/auditoria/08_06_diagnostico_final_corrigido.csv
+    relatorio_final: outputs/auditoria/08_06_relatorio_final_corrigido.txt

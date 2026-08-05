@@ -1,0 +1,17 @@
+﻿metrica,valor
+Candidato selecionado,conf_2m_cdi_40_40_50_30
+Meses de confirmação,2
+Peso CDI expansão desinflacionária,0.4
+Peso CDI expansão inflacionária,0.4
+Peso CDI estagflação,0.5
+Peso CDI recessão desinflacionária,0.3
+Limite de turnover no treino,2.196931798839291
+Turnover selecionado no treino,2.152404001925343
+Retorno/volatilidade selecionado no treino,1.6411262812019458
+Proporção de janelas positivas no treino,0.6756756756756757
+Excesso anualizado no treino,0.006842307468452269
+Data final do treino,31/12/2023
+Data inicial da avaliação,31/01/2024
+Quantidade de meses de treino,48
+Quantidade de meses de avaliação,29
+Critério de seleção,"Seleção somente no treino: janelas positivas de 12 meses, retorno/volatilidade, excesso anualizado, mediana do excesso e menor turnover."

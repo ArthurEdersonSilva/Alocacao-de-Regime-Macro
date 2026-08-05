@@ -1,0 +1,19 @@
+﻿ano,periodo,quantidade_meses,cenario,modelo,retorno_liquido,retorno_benchmark,excesso_vs_benchmark,superou_benchmark
+2024,2024,12,WALK_FORWARD,Modelo oficial — Modelo walk-forward com CDI,9.39%,8.52%,0.87%,True
+2024,2024,12,MODELO_FIXO_CELULA_9,Modelo fixo com CDI,9.39%,8.52%,0.87%,True
+2024,2024,12,MODELO_ANTERIOR_SEM_CDI,Challenger — Modelo anterior sem CDI,8.31%,8.52%,-0.21%,False
+2024,2024,12,BENCHMARK_5_ATIVOS,Benchmark de cinco ativos,8.52%,8.52%,0.00%,False
+2024,2024,12,CARTEIRA_ESTATICA,Carteira estática,9.39%,8.52%,0.87%,True
+2024,2024,12,CDI_100,100% CDI,10.88%,8.52%,2.36%,True
+2025,2025,12,WALK_FORWARD,Modelo oficial — Modelo walk-forward com CDI,13.62%,12.91%,0.72%,True
+2025,2025,12,MODELO_FIXO_CELULA_9,Modelo fixo com CDI,13.62%,12.91%,0.72%,True
+2025,2025,12,MODELO_ANTERIOR_SEM_CDI,Challenger — Modelo anterior sem CDI,12.78%,12.91%,-0.13%,False
+2025,2025,12,BENCHMARK_5_ATIVOS,Benchmark de cinco ativos,12.91%,12.91%,0.00%,False
+2025,2025,12,CARTEIRA_ESTATICA,Carteira estática,13.44%,12.91%,0.53%,True
+2025,2025,12,CDI_100,100% CDI,14.32%,12.91%,1.42%,True
+2026,2026 — parcial (5 meses),5,WALK_FORWARD,Modelo oficial — Modelo walk-forward com CDI,6.18%,5.11%,1.06%,True
+2026,2026 — parcial (5 meses),5,MODELO_FIXO_CELULA_9,Modelo fixo com CDI,6.12%,5.11%,1.00%,True
+2026,2026 — parcial (5 meses),5,MODELO_ANTERIOR_SEM_CDI,Challenger — Modelo anterior sem CDI,5.04%,5.11%,-0.07%,False
+2026,2026 — parcial (5 meses),5,BENCHMARK_5_ATIVOS,Benchmark de cinco ativos,5.11%,5.11%,0.00%,False
+2026,2026 — parcial (5 meses),5,CARTEIRA_ESTATICA,Carteira estática,5.37%,5.11%,0.26%,True
+2026,2026 — parcial (5 meses),5,CDI_100,100% CDI,5.66%,5.11%,0.55%,True

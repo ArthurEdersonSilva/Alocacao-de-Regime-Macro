@@ -1,0 +1,12 @@
+﻿validacao,tipo,status,detalhe
+Status walk-forward,FINANCEIRA,APROVADO,Status: APROVADO
+Critérios walk-forward,FINANCEIRA,APROVADO,6/6
+Modelo oficial acima do benchmark,FINANCEIRA,APROVADO,Vantagem: 3.1702 ponto
+Reprodução do índice oficial,TECNICA,APROVADO,Salvo: 131.966294815037 | Recalculado: 131.966294815037
+Quatro regimes oficiais,TECNICA,APROVADO,4 regimes
+Pesos somam 100%,TECNICA,APROVADO,Pesos verificados nos quatro regimes
+Pesos não negativos,TECNICA,APROVADO,Peso mínimo: 0.04166667
+CDI disponível no esquema oficial,TECNICA,APROVADO,"O CDI pode ter peso zero no fallback sem CDI. Ativos: ['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+Série oficial parcial do IMA-B excluída,TECNICA,APROVADO,IMAB11.SA pode permanecer quando aprovado; somente a série oficial parcial SGS 12466 deve ficar fora da configuração oficial.
+Séries sem valores nulos,TECNICA,APROVADO,0 nulos
+Configuração JSON criada,TECNICA,APROVADO,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\outputs\modelo_final\modelo_oficial.json

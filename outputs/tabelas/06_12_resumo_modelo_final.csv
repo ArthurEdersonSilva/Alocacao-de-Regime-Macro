@@ -1,0 +1,30 @@
+﻿metrica,valor
+Modelo oficial,Modelo walk-forward com CDI
+Modelo challenger,Modelo anterior sem CDI
+Status walk-forward,APROVADO
+Critérios walk-forward aprovados,6
+Quantidade total de critérios,6
+Última recalibração,3
+Candidato atual,conf_2m_cdi_50_40_50_40
+Confirmação atual,2
+Data final do treino atual,31/12/2025
+Data inicial da vigência atual,31/01/2026
+Índice final do modelo oficial,131.96629481503703
+Índice final do challenger,128.30515983295575
+Índice final do benchmark,128.79612412114275
+Diferença oficial contra benchmark,3.1701706938942777
+Diferença oficial contra challenger,3.661134982081279
+Retorno anualizado oficial,0.1216226433424276
+Volatilidade anualizada oficial,0.0484875291036367
+Retorno/volatilidade oficial,2.5083283390760656
+Sharpe de excesso ao CDI,-0.1049655992784551
+Sortino de excesso ao CDI,-0.1673750940879433
+Calmar,5.357093940217334
+Máximo drawdown oficial,-0.0227031007295521
+Turnover total oficial,0.6355267972425722
+Quantidade de ativos,13
+Ativos utilizados,"['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+Frequência de rebalanceamento,MENSAL
+Frequência de recalibração,ANUAL
+Status final,APROVADO PELO WALK-FORWARD
+Uso recomendado,Utilizar o walk-forward com CDI como oficial e manter o modelo anterior sem CDI como challenger.

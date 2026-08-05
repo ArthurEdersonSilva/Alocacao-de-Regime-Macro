@@ -1,0 +1,31 @@
+﻿metrica,valor
+Data final do treino,31/12/2023
+Meses de treino,48
+Meses de avaliação,29
+Confirmação selecionada,2
+Custo por turnover,0.0010000000000000022
+Índice final do modelo com CDI,131.89022206637756
+Índice final do modelo anterior,128.30515983295575
+Índice final do benchmark,128.79612412114275
+Índice final da carteira estática,130.7558836471981
+Índice final de 100% CDI,133.93334023744504
+Diferença do modelo com CDI contra o benchmark,3.0940979452348074
+Diferença do modelo com CDI contra o modelo anterior,3.5850622334218087
+Retorno anualizado do modelo com CDI,0.1213550535783392
+Volatilidade do modelo com CDI,0.05247328908241831
+Retorno/volatilidade do modelo com CDI,2.312701484897016
+Sharpe de excesso ao CDI,-0.09809666798810789
+Sortino de excesso ao CDI,-0.16249733958449059
+Calmar,5.3453074548699755
+Máximo drawdown,-0.022703100729552173
+Turnover total,0.5509456710095276
+Janelas rolling positivas contra o benchmark,0.5555555555555556
+Pior excesso rolling de 12 meses,-0.018027951374045115
+Melhor excesso rolling de 12 meses,0.019222465725715843
+Variantes que superaram o benchmark,0.9093333333333333
+Percentil do candidato original,0.5946666666666667
+Critérios de robustez aprovados,5
+Status da robustez,APROVADO COMO MODELO DEFENSIVO
+Substitui o modelo anterior,SIM
+Recomendação,O modelo com CDI pode substituir o modelo anterior.
+Observação metodológica,"O período de 2024 a 2026 já foi analisado anteriormente e deve ser tratado como avaliação, não como holdout final intocado."

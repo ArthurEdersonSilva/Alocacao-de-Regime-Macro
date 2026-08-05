@@ -1,0 +1,7 @@
+﻿cenario,modelo,posicao_retorno_anualizado,posicao_menor_volatilidade,posicao_retorno_volatilidade,posicao_sharpe,posicao_sortino,posicao_menor_drawdown,observacao
+WALK_FORWARD,Modelo oficial — Modelo walk-forward com CDI,2,2,2,3,3,2,As posições são independentes por métrica. Não foi calculado score agregado.
+MODELO_FIXO_CELULA_9,Modelo fixo com CDI,3,4,4,2,2,2,As posições são independentes por métrica. Não foi calculado score agregado.
+MODELO_ANTERIOR_SEM_CDI,Challenger — Modelo anterior sem CDI,6,6,6,4,4,6,As posições são independentes por métrica. Não foi calculado score agregado.
+BENCHMARK_5_ATIVOS,Benchmark de cinco ativos,5,5,5,5,5,5,As posições são independentes por métrica. Não foi calculado score agregado.
+CARTEIRA_ESTATICA,Carteira estática,4,3,3,6,6,2,As posições são independentes por métrica. Não foi calculado score agregado.
+CDI_100,100% CDI,1,1,1,1,1,1,As posições são independentes por métrica. Não foi calculado score agregado.

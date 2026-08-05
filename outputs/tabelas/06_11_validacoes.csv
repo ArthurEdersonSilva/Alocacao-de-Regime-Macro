@@ -1,0 +1,10 @@
+﻿validacao,status,detalhe
+Quantidade total de meses,APROVADO,77 meses
+Quantidade de meses fora da amostra,APROVADO,29 meses
+Primeira recalibração reproduz a Célula 9,APROVADO,Candidato: conf_2m_cdi_40_40_50_30
+Valores nulos,APROVADO,0 nulos
+Soma dos pesos walk-forward,APROVADO,Todos os meses somam 100%
+Pesos não negativos,APROVADO,Peso mínimo: 0.04166667
+Turnover não negativo,APROVADO,Turnover mínimo: 0.00553721
+Custos não negativos,APROVADO,Custo mínimo: 0.00000554
+Seleção causal,APROVADO,Cada janela utiliza somente dados anteriores ao período de aplicação.

@@ -1,0 +1,16 @@
+{
+    "modelo_oficial": "WALK_FORWARD",
+    "indice_final": 131.96629481503703,
+    "retorno_anualizado": 0.1216226433424276,
+    "volatilidade_anualizada": 0.0484875291036367,
+    "retorno_volatilidade": 2.5083283390760656,
+    "sharpe_excesso_cdi": -0.1049655992784551,
+    "sortino_excesso_cdi": -0.1673750940879433,
+    "calmar": 5.357093940217334,
+    "maximo_drawdown": -0.0227031007295521,
+    "turnover_total": 0.6355267972425722,
+    "indice_challenger": 128.30515983295575,
+    "indice_benchmark": 128.79612412114275,
+    "diferenca_vs_challenger": 3.661134982081279,
+    "diferenca_vs_benchmark": 3.1701706938942777
+}

@@ -1,0 +1,12 @@
+﻿validacao,status,detalhe,resultado
+Base possui registros,APROVADO,77 meses,True
+Datas válidas,APROVADO,Nenhuma data inválida,True
+Datas sem duplicidade,APROVADO,0 duplicidades,True
+Datas em ordem crescente,APROVADO,Ordenação temporal validada,True
+Sem nulos nas colunas principais,APROVADO,0 valores nulos,True
+Pesos somam 100%,APROVADO,Mínimo 1.000000000000 | Máximo 1.000000000000,True
+Turnover não negativo,APROVADO,Turnovers mensais verificados,True
+Custos não negativos,APROVADO,Custos mensais verificados,True
+Retorno líquido do portfólio consistente,APROVADO,Fórmula de custos validada,True
+Retorno líquido do benchmark consistente,APROVADO,Fórmula de custos validada,True
+Índices finais positivos,APROVADO,Patrimônios finais maiores que zero,True

@@ -1,0 +1,5 @@
+﻿codigo_sgs,serie,status,frequencia,data_inicial,data_final,registros,duplicidades,datas_invalidas,valores_nulos,valores_infinitos,intervalo_mediano_dias,maior_intervalo_dias,dias_desatualizado,tolerancia_atualizacao_dias,erros,alertas
+24363,IBC_BR,ATENCAO,mensal,2004-01-01,2026-05-01,269,0,0,0,0,31.0,31,95,90,,Série possivelmente desatualizada
+24364,IBC_BR_DESSAZONALIZADO,ATENCAO,mensal,2004-01-01,2026-05-01,269,0,0,0,0,31.0,31,95,90,,Série possivelmente desatualizada
+12,CDI,OK,diaria,2004-01-02,2026-08-03,5671,0,0,0,0,1.0,5,1,15,,
+433,IPCA,OK,mensal,2004-01-01,2026-06-01,270,0,0,0,0,31.0,31,64,90,,

@@ -1,0 +1,13 @@
+﻿metrica,valor
+Quantidade de meses,77
+Data inicial,31/01/2020
+Data final,31/05/2026
+Quantidade de ativos,12
+Ativos originais,"NG=F, ZC=F, GC=F, USDBRL=X, EURBRL=X, JPYBRL=X, IMAB11.SA, B5MB11.SA, IB5M11.SA, BOVV11.SA, FIND11.SA, MATB11.SA"
+Quantidade de regimes encontrados,4
+Regimes encontrados,"ESTAGFLACAO, EXPANSAO_DESINFLACIONARIA, EXPANSAO_INFLACIONARIA, RECESSAO_DESINFLACIONARIA"
+Regimes ausentes,Nenhum
+Peso mínimo total,0.9999999999999994
+Peso máximo total,0.9999999999999994
+CDI disponível,Não
+IMAB_OFICIAL_PARCIAL disponível,Não

@@ -1,0 +1,16 @@
+﻿metrica,valor
+Data final do treino,31/12/2023
+Data inicial do teste,31/01/2024
+Meses de treino,48
+Meses de teste,29
+Critério de seleção,retorno_volatilidade_liquido
+Cenário selecionado,Regime original
+Retorno/volatilidade no treino,0.8971977491060984
+Índice final no treino,134.22420049176287
+Turnover total no treino,2.19693179883929
+Índice final no teste da estratégia,128.30515983295578
+Índice final no teste do benchmark,128.30515983295575
+Diferença do índice no teste,2.842170943040401e-14
+Diferença do retorno anualizado no teste,0.0
+Diferença de retorno/volatilidade no teste,4.440892098500626e-16
+Status fora da amostra,SUPEROU O BENCHMARK

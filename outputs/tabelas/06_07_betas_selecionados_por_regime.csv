@@ -1,0 +1,5 @@
+﻿ordem_ajuste,regime,nome_regime,quantidade_meses_regime_treino,beta_selecionado,proporcao_janelas_positivas_treino,mediana_excesso_12m_treino,retorno_volatilidade_treino,turnover_total_treino,motivo_selecao
+1,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,21,0.0,0.24324324324324326,0.0,0.8971977491060984,2.19693179883929,Selecionado somente com métricas do treino
+2,EXPANSAO_INFLACIONARIA,Expansão inflacionária,17,0.0,0.24324324324324326,0.0,0.8971977491060984,2.19693179883929,Selecionado somente com métricas do treino
+3,ESTAGFLACAO,Estagflação,5,0.0,0.24324324324324326,0.0,0.8971977491060984,2.19693179883929,Peso mantido por amostra insuficiente
+4,RECESSAO_DESINFLACIONARIA,Recessão desinflacionária,5,0.0,0.24324324324324326,0.0,0.8971977491060984,2.19693179883929,Peso mantido por amostra insuficiente

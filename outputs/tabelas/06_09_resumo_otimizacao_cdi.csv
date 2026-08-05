@@ -1,0 +1,17 @@
+﻿metrica,valor
+Combinações testadas,3888
+Candidato selecionado,conf_2m_cdi_40_40_50_30
+Meses de confirmação,2
+Índice final do modelo base na avaliação,128.30515983295575
+Índice final do modelo com CDI na avaliação,131.8902220663776
+Índice final do benchmark de 5 ativos,128.79612412114275
+Diferença do modelo com CDI contra o benchmark,3.094097945234836
+Diferença do modelo com CDI contra o modelo base,3.585062233421837
+Retorno anualizado do modelo com CDI,0.12135505357833942
+Volatilidade anualizada do modelo com CDI,0.052473289082418405
+Retorno/volatilidade do modelo com CDI,2.312701484897016
+Máximo drawdown do modelo com CDI,-0.022703100729552173
+Turnover total do modelo com CDI,0.550945671009528
+Custo acumulado simples do modelo com CDI,0.0005509456710095278
+Status fora da amostra,SUPEROU O BENCHMARK
+Observação metodológica,Nenhum dado posterior a 31/12/2023 foi usado na seleção dos parâmetros.

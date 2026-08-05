@@ -1,0 +1,9 @@
+﻿periodo,cenario,rotulo,data_inicial,data_final,quantidade_meses,quantidade_mudancas_regime,retorno_total_liquido,retorno_anualizado_liquido,volatilidade_anualizada_liquida,retorno_volatilidade_liquido,maximo_drawdown_liquido,meses_positivos,melhor_mes,pior_mes,turnover_total,turnover_medio_mensal,custo_acumulado_simples,indice_final_liquido
+TREINO,Original_1m,Regime original,31/01/2020,31/12/2023,48,8,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,5.15%,-6.36%,2.20,4.58%,0.22%,134.22
+TREINO,Confirmacao_2m,Confirmação de 2 meses,31/01/2020,31/12/2023,48,8,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,5.15%,-6.36%,2.20,4.58%,0.22%,134.22
+TREINO,Confirmacao_3m,Confirmação de 3 meses,31/01/2020,31/12/2023,48,8,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,5.15%,-6.36%,2.20,4.58%,0.22%,134.22
+TREINO,Benchmark_Estatico,Benchmark de pesos iguais rebalanceado,31/01/2020,31/12/2023,48,0,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,5.15%,-6.36%,2.20,4.58%,0.22%,134.22
+TESTE,Original_1m,Regime original,31/01/2024,31/05/2026,29,3,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,8.68%,-3.64%,0.57,1.96%,0.06%,128.31
+TESTE,Confirmacao_2m,Confirmação de 2 meses,31/01/2024,31/05/2026,29,3,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,8.68%,-3.64%,0.57,1.96%,0.06%,128.31
+TESTE,Confirmacao_3m,Confirmação de 3 meses,31/01/2024,31/05/2026,29,3,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,8.68%,-3.64%,0.57,1.96%,0.06%,128.31
+TESTE,Benchmark_Estatico,Benchmark de pesos iguais rebalanceado,31/01/2024,31/05/2026,29,0,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,8.68%,-3.64%,0.57,1.96%,0.06%,128.31

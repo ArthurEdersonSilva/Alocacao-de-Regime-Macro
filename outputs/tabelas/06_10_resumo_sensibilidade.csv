@@ -1,0 +1,13 @@
+﻿metrica,valor
+Quantidade de variantes testadas,1875
+Proporção que superou o benchmark,0.9093333333333333
+Proporção que superou o modelo anterior,0.944
+Diferença média contra o benchmark,2.6488257235576884
+Diferença mediana contra o benchmark,2.5544082025610066
+Percentil 5 da diferença contra o benchmark,-0.5544457799060751
+Percentil 95 da diferença contra o benchmark,6.149979244769611
+Pior diferença contra o benchmark,-2.673616798162925
+Melhor diferença contra o benchmark,8.884838580707452
+Diferença do candidato original contra o benchmark,3.094097945234836
+Percentil do candidato original,0.5946666666666667
+Observação metodológica,A grade de sensibilidade foi utilizada somente para diagnóstico. Nenhum novo peso foi escolhido com o período de avaliação.

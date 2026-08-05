@@ -1,0 +1,5 @@
+﻿cenario,rotulo,meses_confirmacao,quantidade_mudancas_regime,turnover_total,turnover_medio_mensal,custo_acumulado_simples,retorno_total_bruto,retorno_total_liquido,retorno_anualizado_liquido,volatilidade_anualizada_liquida,retorno_volatilidade_liquido,maximo_drawdown_liquido,meses_positivos,indice_final_bruto,indice_final_liquido,impacto_final_custos,diferenca_liquida_vs_benchmark
+Original_1m,Regime original,1,11,2.76,3.59%,0.28%,72.69%,72.22%,8.84%,8.33%,1.06,-8.93%,61.04%,172.69,172.22,0.48,0.00
+Confirmacao_2m,Confirmação de 2 meses,2,11,2.76,3.59%,0.28%,72.69%,72.22%,8.84%,8.33%,1.06,-8.93%,61.04%,172.69,172.22,0.48,0.00
+Confirmacao_3m,Confirmação de 3 meses,3,11,2.76,3.59%,0.28%,72.69%,72.22%,8.84%,8.33%,1.06,-8.93%,61.04%,172.69,172.22,0.48,0.00
+Benchmark_Estatico,Benchmark de pesos iguais rebalanceado,-,0,2.76,3.59%,0.28%,72.69%,72.22%,8.84%,8.33%,1.06,-8.93%,61.04%,172.69,172.22,0.48,0.00

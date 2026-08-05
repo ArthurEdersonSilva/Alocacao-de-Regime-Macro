@@ -1,0 +1,8 @@
+﻿item,decisao,justificativa
+Modelo oficial,Modelo walk-forward com CDI,O walk-forward atingiu os critérios mínimos e foi mantido como modelo oficial.
+Modelo challenger,Modelo anterior sem CDI,"Permanece registrado para comparação e novas recalibrações, sem substituir o modelo oficial enquanto não atingir os critérios mínimos."
+Walk-forward,APROVADO,Critérios aprovados: 6/6.
+Inclusão do CDI,MANTER,A série do CDI continua disponível como taxa livre de risco e comparador.
+Série oficial parcial do IMA-B,NÃO INCLUIR,A série oficial SGS 12466 possui cobertura parcial. O ETF IMAB11.SA pode permanecer quando aprovado pela coleta.
+Resultado do modelo oficial,Índice 131.97,Diferença de 3.17 ponto contra o benchmark.
+Uso recomendado,APROVADO PELO WALK-FORWARD,Utilizar o walk-forward com CDI como oficial e manter o modelo anterior sem CDI como challenger.

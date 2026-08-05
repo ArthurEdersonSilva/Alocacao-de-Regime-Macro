@@ -1,0 +1,7 @@
+﻿criterio,resultado,valor_observado,regra
+Superou benchmark na avaliação,True,3.0940979452348074,Diferença de índice maior que zero
+Sharpe superior ao benchmark,True,0.0836444901024677,Sharpe de excesso ao CDI superior
+Drawdown melhor que o benchmark,True,0.021479614750092746,Drawdown menos negativo
+Rolling de 12 meses positivo,True,0.5555555555555556,Pelo menos 50% das janelas acima do benchmark
+Robustez aos pesos próximos,True,0.9093333333333333,Pelo menos 60% das variantes acima do benchmark
+Substitui o modelo anterior,True,3.5850622334218087,Índice e retorno/volatilidade não inferiores ao modelo anterior

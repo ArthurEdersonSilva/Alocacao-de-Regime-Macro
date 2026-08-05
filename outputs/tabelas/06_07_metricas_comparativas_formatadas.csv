@@ -1,0 +1,7 @@
+﻿periodo,cenario,rotulo,quantidade_meses,retorno_total_liquido,retorno_anualizado_liquido,volatilidade_anualizada_liquida,retorno_volatilidade_liquido,maximo_drawdown_liquido,meses_positivos,turnover_total,turnover_medio_mensal,custo_acumulado_simples,indice_final_liquido,diferenca_indice_vs_benchmark
+TREINO,base,Modelo da Célula 5,48,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,2.20,4.58%,0.22%,134.22,0.00
+TREINO,otimizada,Pesos ajustados por regime,48,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,2.20,4.58%,0.22%,134.22,0.00
+TREINO,benchmark,Benchmark de pesos iguais,48,34.22%,7.64%,8.51%,0.90,-8.93%,58.33%,2.20,4.58%,0.22%,134.22,0.00
+AVALIACAO,base,Modelo da Célula 5,29,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,0.57,1.96%,0.06%,128.31,0.00
+AVALIACAO,otimizada,Pesos ajustados por regime,29,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,0.57,1.96%,0.06%,128.31,0.00
+AVALIACAO,benchmark,Benchmark de pesos iguais,29,28.31%,10.86%,8.14%,1.33,-4.93%,65.52%,0.57,1.96%,0.06%,128.31,0.00

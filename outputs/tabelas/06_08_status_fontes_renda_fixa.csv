@@ -1,0 +1,3 @@
+﻿ativo,status,fonte,incluido_modelo,observacao
+CDI,DISPONIVEL,dados_macro_mensais.csv,True,Série mensal já disponível localmente. Nenhuma nova requisição ao BCB foi realizada.
+IMAB_OFICIAL_PARCIAL,EXCLUIDO,SGS 12466,False,Série oficial possui cobertura parcial. IMAB11.SA permanece elegível quando aprovado.

@@ -1,0 +1,9 @@
+﻿metrica,valor
+Data inicial,31/01/2020
+Data final,31/05/2026
+Quantidade de meses,77
+Quantidade de ativos de risco,12
+CDI incluído,SIM
+Fonte do CDI,dados_macro_mensais.csv
+IMA-B oficial parcial incluído,NÃO
+Nova chamada ao BCB nesta etapa,NÃO

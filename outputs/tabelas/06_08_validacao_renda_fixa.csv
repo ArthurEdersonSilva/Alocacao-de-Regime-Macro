@@ -1,0 +1,5 @@
+﻿validacao,status,detalhe
+CDI disponível no período completo,APROVADO,77 meses | fonte: dados_macro_mensais.csv
+Base ampliada sem valores nulos,APROVADO,77 meses e 13 ativos
+Série oficial parcial do IMA-B excluída,APROVADO,SGS 12466 não foi coletada nem incluída.
+Quantidade de meses preservada,APROVADO,77 meses

@@ -1,0 +1,4 @@
+﻿base,arquivo,quantidade_linhas,quantidade_colunas,data_inicial,data_final,datas_duplicadas
+Backtest mensal original,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\backtest_portfolio_mensal.csv,77,90,2020-01-31,2026-05-31,0
+Regimes macroeconômicos,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\regimes_macroeconomicos.csv,255,23,2005-03-31,2026-05-31,0
+Retornos dos ativos,C:\Users\ferna\Desktop\VSCode\Desafio_Itau_Final\alocacao_regime_macro\data\processed\retornos_ativos.csv,1597,13,2020-01-03,2026-08-04,0

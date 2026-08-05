@@ -1,0 +1,7 @@
+numpy     # Usada para cálculos numéricos, valores NaN, retornos e validações
+pandas    # Usada para DataFrames, tratamento de dados, datas e arquivos CSV
+yfinance  # Usada para coletar preços históricos dos ativos no Yahoo Finance
+PyYAML    # Usada para ler as configurações do arquivo config.yaml
+matplotlib # Usada para gerar e salvar gráficos do projeto
+requests  # Usada para fazer requisições à API do Banco Central
+urllib3   # Usada no controle de tentativas, conexão e erros das requisições HTTP

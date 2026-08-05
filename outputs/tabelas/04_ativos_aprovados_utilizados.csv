@@ -1,0 +1,13 @@
+﻿ticker,classe,aprovado,status,motivos_reprovacao,ressalvas,data_inicial,data_final,registros,cobertura_pct,nulos_pct,maior_periodo_congelado,maior_sequencia_suspeita,linhas_suspeitas_pct,maior_intervalo_dias,maior_retorno_diario_pct,ohlc_invalido_pct,precos_nao_positivos,dias_desatualizado,erro_coleta,segmento,fonte
+NG=F,COMMODITY_GAS_NATURAL,True,APROVADO,,,02/01/2020,04/08/2026,1658,96.4,0.0,2.0,0.0,0.0,4.0,47.48,0.0,0.0,0.0,,COMMODITIES,data\processed\ativos_selecionados_modelo.csv
+ZC=F,COMMODITY_MILHO,True,APROVADO,,,02/01/2020,04/08/2026,1656,96.28,0.0,2.0,0.0,0.0,4.0,17.39,0.0,0.0,0.0,,COMMODITIES,data\processed\ativos_selecionados_modelo.csv
+GC=F,COMMODITY_OURO,True,APROVADO,,,02/01/2020,04/08/2026,1657,96.34,0.0,2.0,1.0,0.12,4.0,11.37,0.0,0.0,0.0,,COMMODITIES,data\processed\ativos_selecionados_modelo.csv
+USDBRL=X,MOEDA_DOLAR,True,APROVADO_COM_RESSALVAS,,ohlc_invalido,01/01/2020,04/08/2026,1715,99.71,0.0,3.0,0.0,0.0,5.0,6.21,0.9329,0.0,0.0,,MOEDAS,data\processed\ativos_selecionados_modelo.csv
+EURBRL=X,MOEDA_EURO,True,APROVADO_COM_RESSALVAS,,ohlc_invalido,01/01/2020,04/08/2026,1715,99.71,0.0,3.0,0.0,0.0,5.0,4.95,33.236,0.0,0.0,,MOEDAS,data\processed\ativos_selecionados_modelo.csv
+JPYBRL=X,MOEDA_IENE,True,APROVADO_COM_RESSALVAS,,ohlc_invalido,01/01/2020,04/08/2026,1715,99.71,0.0,2.0,0.0,0.0,5.0,9.04,68.805,0.0,0.0,,MOEDAS,data\processed\ativos_selecionados_modelo.csv
+IMAB11.SA,RENDA_FIXA_INFLACAO_IMAB,True,APROVADO_COM_RESSALVAS,,"preco_congelado, linhas_suspeitas",02/01/2020,04/08/2026,1640,95.35,0.0,910.0,958.0,58.72,5.0,36.16,0.0,0.0,0.0,,RENDA_FIXA,data\processed\ativos_selecionados_modelo.csv
+B5MB11.SA,RENDA_FIXA_INFLACAO_IMAB5,True,APROVADO_COM_RESSALVAS,,"preco_congelado, linhas_suspeitas",02/01/2020,04/08/2026,1640,95.35,0.0,913.0,961.0,64.57,5.0,28.6,0.0,0.0,0.0,,RENDA_FIXA,data\processed\ativos_selecionados_modelo.csv
+IB5M11.SA,RENDA_FIXA_INFLACAO_IMAB5_MAIS,True,APROVADO_COM_RESSALVAS,,linhas_suspeitas,02/01/2020,04/08/2026,1640,95.35,0.0,6.0,5.0,3.6,5.0,10.0,0.0,0.0,0.0,,RENDA_FIXA,data\processed\ativos_selecionados_modelo.csv
+BOVV11.SA,RENDA_VARIAVEL_BRASIL_IBOVESPA,True,APROVADO,,,02/01/2020,04/08/2026,1640,95.35,0.0,2.0,1.0,0.06,5.0,15.02,0.0,0.0,0.0,,RENDA_VARIAVEL,data\processed\ativos_selecionados_modelo.csv
+FIND11.SA,RENDA_VARIAVEL_FINANCEIRO,True,APROVADO,,,02/01/2020,04/08/2026,1640,95.35,0.0,2.0,1.0,0.12,5.0,14.1,0.0,0.0,0.0,,RENDA_VARIAVEL,data\processed\ativos_selecionados_modelo.csv
+MATB11.SA,RENDA_VARIAVEL_MATERIAIS,True,APROVADO,,,02/01/2020,04/08/2026,1640,95.35,0.0,2.0,1.0,0.06,5.0,18.97,0.0,0.0,0.0,,RENDA_VARIAVEL,data\processed\ativos_selecionados_modelo.csv

@@ -1,0 +1,16 @@
+﻿validacao,status,detalhe
+Status do modelo,APROVADO,Status: APROVADO PELO WALK-FORWARD
+Modelo oficial,APROVADO,Modelo walk-forward com CDI -> WALK_FORWARD
+Quantidade de ativos,APROVADO,"13 ativos: ['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+CDI disponível,APROVADO,"O CDI pode ter peso zero no fallback sem CDI. Ativos: ['NG=F', 'ZC=F', 'GC=F', 'USDBRL=X', 'EURBRL=X', 'JPYBRL=X', 'IMAB11.SA', 'B5MB11.SA', 'IB5M11.SA', 'BOVV11.SA', 'FIND11.SA', 'MATB11.SA', 'CDI']"
+Série oficial parcial do IMA-B excluída,APROVADO,IMAB11.SA pode permanecer quando aprovado. Somente a série oficial parcial SGS 12466 deve ficar fora do universo oficial.
+Quatro regimes,APROVADO,4 regimes
+Pesos somam 100%,APROVADO,Pesos verificados nos quatro regimes
+Pesos não negativos,APROVADO,Peso mínimo: 0.04166667
+Período de avaliação,APROVADO,29 meses
+Séries sem nulos,APROVADO,0 nulos
+Métricas obrigatórias válidas,APROVADO,Nenhuma métrica obrigatória ausente
+Calmar indefinido justificado,APROVADO,1 cenário(s) com drawdown zero
+Modelo acima do benchmark,APROVADO,Vantagem: 3.1702
+Consistência do índice no JSON,APROVADO,CSV: 131.966294815037 | JSON: 131.966294815037
+Validações técnicas da Etapa 06,APROVADO,Nenhuma validação técnica final reprovada

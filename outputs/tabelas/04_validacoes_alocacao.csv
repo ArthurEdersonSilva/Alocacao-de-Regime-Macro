@@ -1,0 +1,9 @@
+﻿validacao_tecnica,status,detalhe
+Base de alocação não vazia,OK,77 meses
+Retornos selecionados preenchidos,OK,0 ausências
+Pesos mensais preenchidos,OK,0 ausências
+Pesos mensais somam 100%,OK,Mínimo 1.000000000000 | Máximo 1.000000000000
+Tabela de pesos possui todos os ativos,OK,"['peso_NG=F', 'peso_ZC=F', 'peso_GC=F', 'peso_USDBRL=X', 'peso_EURBRL=X', 'peso_JPYBRL=X', 'peso_IMAB11.SA', 'peso_B5MB11.SA', 'peso_IB5M11.SA', 'peso_BOVV11.SA', 'peso_FIND11.SA', 'peso_MATB11.SA']"
+Datas sem duplicidade,OK,0 duplicidades
+Datas ordenadas,OK,Ordem cronológica verificada
+Retornos da carteira são finitos,OK,Sem nulos ou infinitos
