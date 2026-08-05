@@ -1,0 +1,2 @@
+﻿regime,nome_regime,meses,frequencia,retorno_estrategia,volatilidade_estrategia,drawdown_estrategia,retorno_benchmark,volatilidade_benchmark,drawdown_benchmark,retorno_cdi,volatilidade_cdi,drawdown_cdi,excesso_vs_benchmark
+EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,5,1.0,0.05042719891341063,0.14940196356824298,-0.034488759158477156,0.05042719891341063,0.14940196356824298,-0.034488759158477156,0.0566056848875105,0.0028884897509205663,0.0,0.0

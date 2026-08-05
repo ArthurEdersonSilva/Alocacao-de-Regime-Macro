@@ -1,0 +1,247 @@
+﻿origem,arquivo,caminho,extensao,modificacao_utc,tamanho_bytes,status_atualizacao
+graficos,01_atualizacao_series_macro.png,outputs/graficos/01_atualizacao_series_macro.png,.png,2026-08-04 23:57:25.550895+00:00,45546,Mesma execução provável
+graficos,01_cobertura_dados_ativos.png,outputs/graficos/01_cobertura_dados_ativos.png,.png,2026-08-04 23:57:25.354205+00:00,104134,Mesma execução provável
+graficos,02_08_precos_normalizados_commodities.png,outputs/graficos/02_08_precos_normalizados_commodities.png,.png,2026-08-04 23:57:33.118711+00:00,216167,Mesma execução provável
+graficos,02_08_precos_normalizados_moedas.png,outputs/graficos/02_08_precos_normalizados_moedas.png,.png,2026-08-04 23:57:36.934587+00:00,269364,Mesma execução provável
+graficos,02_08_precos_normalizados_renda_fixa.png,outputs/graficos/02_08_precos_normalizados_renda_fixa.png,.png,2026-08-04 23:57:39.031750+00:00,154959,Mesma execução provável
+graficos,02_08_precos_normalizados_renda_variavel.png,outputs/graficos/02_08_precos_normalizados_renda_variavel.png,.png,2026-08-04 23:57:35.299289+00:00,240984,Mesma execução provável
+graficos,02_09_retorno_acumulado_commodities.png,outputs/graficos/02_09_retorno_acumulado_commodities.png,.png,2026-08-04 23:57:33.466736+00:00,216683,Mesma execução provável
+graficos,02_09_retorno_acumulado_moedas.png,outputs/graficos/02_09_retorno_acumulado_moedas.png,.png,2026-08-04 23:57:37.296515+00:00,269208,Mesma execução provável
+graficos,02_09_retorno_acumulado_renda_fixa.png,outputs/graficos/02_09_retorno_acumulado_renda_fixa.png,.png,2026-08-04 23:57:39.328785+00:00,154774,Mesma execução provável
+graficos,02_09_retorno_acumulado_renda_variavel.png,outputs/graficos/02_09_retorno_acumulado_renda_variavel.png,.png,2026-08-04 23:57:35.636702+00:00,241419,Mesma execução provável
+graficos,02_10_volatilidade_movel_commodities.png,outputs/graficos/02_10_volatilidade_movel_commodities.png,.png,2026-08-04 23:57:33.803672+00:00,174471,Mesma execução provável
+graficos,02_10_volatilidade_movel_moedas.png,outputs/graficos/02_10_volatilidade_movel_moedas.png,.png,2026-08-04 23:57:37.766464+00:00,224573,Mesma execução provável
+graficos,02_10_volatilidade_movel_renda_fixa.png,outputs/graficos/02_10_volatilidade_movel_renda_fixa.png,.png,2026-08-04 23:57:39.626209+00:00,109957,Mesma execução provável
+graficos,02_10_volatilidade_movel_renda_variavel.png,outputs/graficos/02_10_volatilidade_movel_renda_variavel.png,.png,2026-08-04 23:57:35.983550+00:00,191719,Mesma execução provável
+graficos,02_11_drawdown_ativos_commodities.png,outputs/graficos/02_11_drawdown_ativos_commodities.png,.png,2026-08-04 23:57:34.232621+00:00,258434,Mesma execução provável
+graficos,02_11_drawdown_ativos_moedas.png,outputs/graficos/02_11_drawdown_ativos_moedas.png,.png,2026-08-04 23:57:38.364299+00:00,268203,Mesma execução provável
+graficos,02_11_drawdown_ativos_renda_fixa.png,outputs/graficos/02_11_drawdown_ativos_renda_fixa.png,.png,2026-08-04 23:57:39.925101+00:00,199988,Mesma execução provável
+graficos,02_11_drawdown_ativos_renda_variavel.png,outputs/graficos/02_11_drawdown_ativos_renda_variavel.png,.png,2026-08-04 23:57:36.311420+00:00,303256,Mesma execução provável
+graficos,02_12_correlacao_retornos_commodities.png,outputs/graficos/02_12_correlacao_retornos_commodities.png,.png,2026-08-04 23:57:34.813688+00:00,43715,Mesma execução provável
+graficos,02_12_correlacao_retornos_consolidada.png,outputs/graficos/02_12_correlacao_retornos_consolidada.png,.png,2026-08-04 23:57:41.204377+00:00,167629,Mesma execução provável
+graficos,02_12_correlacao_retornos_moedas.png,outputs/graficos/02_12_correlacao_retornos_moedas.png,.png,2026-08-04 23:57:38.727095+00:00,51268,Mesma execução provável
+graficos,02_12_correlacao_retornos_renda_fixa.png,outputs/graficos/02_12_correlacao_retornos_renda_fixa.png,.png,2026-08-04 23:57:40.321867+00:00,52909,Mesma execução provável
+graficos,02_12_correlacao_retornos_renda_variavel.png,outputs/graficos/02_12_correlacao_retornos_renda_variavel.png,.png,2026-08-04 23:57:36.603809+00:00,55059,Mesma execução provável
+graficos,02_13_ipca_12_meses.png,outputs/graficos/02_13_ipca_12_meses.png,.png,2026-08-04 23:57:41.433500+00:00,109701,Mesma execução provável
+graficos,02_14_ibc_br_dessazonalizado.png,outputs/graficos/02_14_ibc_br_dessazonalizado.png,.png,2026-08-04 23:57:41.672162+00:00,127635,Mesma execução provável
+graficos,02_15_tendencias_inflacao_crescimento.png,outputs/graficos/02_15_tendencias_inflacao_crescimento.png,.png,2026-08-04 23:57:42.009839+00:00,157329,Mesma execução provável
+graficos,04_desempenho_acumulado_bruto.png,outputs/graficos/04_desempenho_acumulado_bruto.png,.png,2026-08-05 00:06:12.609282+00:00,76387,Mesma execução provável
+graficos,04_diferenca_carteiras.png,outputs/graficos/04_diferenca_carteiras.png,.png,2026-08-05 00:06:13.090356+00:00,32123,Mesma execução provável
+graficos,04_drawdown_carteiras.png,outputs/graficos/04_drawdown_carteiras.png,.png,2026-08-05 00:06:12.846852+00:00,118478,Mesma execução provável
+graficos,05_contribuicao_media_por_regime.png,outputs/graficos/05_contribuicao_media_por_regime.png,.png,2026-08-05 00:06:55.537318+00:00,95751,Atual ou posterior às bases centrais
+graficos,05_desempenho_bruto_liquido.png,outputs/graficos/05_desempenho_bruto_liquido.png,.png,2026-08-05 00:06:53.806908+00:00,103687,Atual ou posterior às bases centrais
+graficos,05_drawdown_liquido.png,outputs/graficos/05_drawdown_liquido.png,.png,2026-08-05 00:06:54.113154+00:00,123010,Atual ou posterior às bases centrais
+graficos,05_impacto_acumulado_custos.png,outputs/graficos/05_impacto_acumulado_custos.png,.png,2026-08-05 00:06:54.455203+00:00,67555,Atual ou posterior às bases centrais
+graficos,05_indice_final_por_custo.png,outputs/graficos/05_indice_final_por_custo.png,.png,2026-08-05 00:06:55.777477+00:00,89773,Atual ou posterior às bases centrais
+graficos,05_retorno_liquido_medio_por_regime.png,outputs/graficos/05_retorno_liquido_medio_por_regime.png,.png,2026-08-05 00:06:55.109845+00:00,74051,Atual ou posterior às bases centrais
+graficos,05_retorno_movel_12m.png,outputs/graficos/05_retorno_movel_12m.png,.png,2026-08-05 00:06:56.452894+00:00,100662,Atual ou posterior às bases centrais
+graficos,05_retornos_liquidos_anuais.png,outputs/graficos/05_retornos_liquidos_anuais.png,.png,2026-08-05 00:06:56.191447+00:00,42503,Atual ou posterior às bases centrais
+graficos,05_turnover_mensal.png,outputs/graficos/05_turnover_mensal.png,.png,2026-08-05 00:06:54.755093+00:00,63613,Atual ou posterior às bases centrais
+graficos,05_vantagem_liquida_por_custo.png,outputs/graficos/05_vantagem_liquida_por_custo.png,.png,2026-08-05 00:06:55.987801+00:00,53400,Atual ou posterior às bases centrais
+graficos,05_volatilidade_movel_12m.png,outputs/graficos/05_volatilidade_movel_12m.png,.png,2026-08-05 00:06:56.737875+00:00,110868,Atual ou posterior às bases centrais
+graficos,06_02_mudancas_regime_por_confirmacao.png,outputs/graficos/06_02_mudancas_regime_por_confirmacao.png,.png,2026-08-05 00:07:53.882444+00:00,80706,Atual ou posterior às bases centrais
+graficos,06_02_series_regimes_suavizados.png,outputs/graficos/06_02_series_regimes_suavizados.png,.png,2026-08-05 00:07:54.909217+00:00,155885,Atual ou posterior às bases centrais
+graficos,06_03_desempenho_liquido_regimes_suavizados.png,outputs/graficos/06_03_desempenho_liquido_regimes_suavizados.png,.png,2026-08-05 00:07:56.844985+00:00,211688,Atual ou posterior às bases centrais
+graficos,06_03_diferenca_liquida_vs_benchmark.png,outputs/graficos/06_03_diferenca_liquida_vs_benchmark.png,.png,2026-08-05 00:07:58.798142+00:00,134460,Atual ou posterior às bases centrais
+graficos,06_03_turnover_regimes_suavizados.png,outputs/graficos/06_03_turnover_regimes_suavizados.png,.png,2026-08-05 00:07:57.995264+00:00,368294,Atual ou posterior às bases centrais
+graficos,06_04_desempenho_fora_amostra.png,outputs/graficos/06_04_desempenho_fora_amostra.png,.png,2026-08-05 00:07:59.745801+00:00,194639,Atual ou posterior às bases centrais
+graficos,06_04_diferenca_fora_amostra.png,outputs/graficos/06_04_diferenca_fora_amostra.png,.png,2026-08-05 00:08:00.506178+00:00,124997,Atual ou posterior às bases centrais
+graficos,06_05_desempenho_teste_pesos_otimizados.png,outputs/graficos/06_05_desempenho_teste_pesos_otimizados.png,.png,2026-08-05 00:08:03.871926+00:00,195863,Atual ou posterior às bases centrais
+graficos,06_05_diferenca_teste_pesos_otimizados.png,outputs/graficos/06_05_diferenca_teste_pesos_otimizados.png,.png,2026-08-05 00:08:04.331409+00:00,124997,Atual ou posterior às bases centrais
+graficos,06_05_retorno_volatilidade_treino.png,outputs/graficos/06_05_retorno_volatilidade_treino.png,.png,2026-08-05 00:08:03.328991+00:00,157017,Atual ou posterior às bases centrais
+graficos,06_06_contribuicao_ativos_teste.png,outputs/graficos/06_06_contribuicao_ativos_teste.png,.png,2026-08-05 00:08:06.279632+00:00,213065,Atual ou posterior às bases centrais
+graficos,06_06_excesso_retorno_por_regime.png,outputs/graficos/06_06_excesso_retorno_por_regime.png,.png,2026-08-05 00:08:05.586385+00:00,167720,Atual ou posterior às bases centrais
+graficos,06_06_turnover_por_regime.png,outputs/graficos/06_06_turnover_por_regime.png,.png,2026-08-05 00:08:06.773776+00:00,148755,Atual ou posterior às bases centrais
+graficos,06_07_comparacao_pesos_por_regime.png,outputs/graficos/06_07_comparacao_pesos_por_regime.png,.png,2026-08-05 00:08:12.494326+00:00,638032,Atual ou posterior às bases centrais
+graficos,06_07_desempenho_periodo_avaliacao.png,outputs/graficos/06_07_desempenho_periodo_avaliacao.png,.png,2026-08-05 00:08:10.831053+00:00,200460,Atual ou posterior às bases centrais
+graficos,06_07_diferenca_vs_benchmark_avaliacao.png,outputs/graficos/06_07_diferenca_vs_benchmark_avaliacao.png,.png,2026-08-05 00:08:11.262910+00:00,124551,Atual ou posterior às bases centrais
+graficos,06_08_cdi_acumulado.png,outputs/graficos/06_08_cdi_acumulado.png,.png,2026-08-05 00:08:12.786564+00:00,52455,Atual ou posterior às bases centrais
+graficos,06_09_desempenho_avaliacao_cdi.png,outputs/graficos/06_09_desempenho_avaliacao_cdi.png,.png,2026-08-05 00:08:23.083692+00:00,288574,Atual ou posterior às bases centrais
+graficos,06_09_diferenca_vs_benchmark_5_ativos.png,outputs/graficos/06_09_diferenca_vs_benchmark_5_ativos.png,.png,2026-08-05 00:08:23.615837+00:00,236660,Atual ou posterior às bases centrais
+graficos,06_09_excesso_rolling_12m_treino.png,outputs/graficos/06_09_excesso_rolling_12m_treino.png,.png,2026-08-05 00:08:24.733412+00:00,213755,Atual ou posterior às bases centrais
+graficos,06_09_pesos_cdi_por_regime.png,outputs/graficos/06_09_pesos_cdi_por_regime.png,.png,2026-08-05 00:08:24.118814+00:00,153151,Atual ou posterior às bases centrais
+graficos,06_10_desempenho_comparadores_avaliacao.png,outputs/graficos/06_10_desempenho_comparadores_avaliacao.png,.png,2026-08-05 00:08:28.507977+00:00,358369,Atual ou posterior às bases centrais
+graficos,06_10_diferenca_modelo_vs_referencias.png,outputs/graficos/06_10_diferenca_modelo_vs_referencias.png,.png,2026-08-05 00:08:29.372469+00:00,328303,Atual ou posterior às bases centrais
+graficos,06_10_distribuicao_sensibilidade_vs_benchmark.png,outputs/graficos/06_10_distribuicao_sensibilidade_vs_benchmark.png,.png,2026-08-05 00:08:29.793738+00:00,104667,Atual ou posterior às bases centrais
+graficos,06_10_risco_retorno_avaliacao.png,outputs/graficos/06_10_risco_retorno_avaliacao.png,.png,2026-08-05 00:08:28.892311+00:00,151770,Atual ou posterior às bases centrais
+graficos,06_10_rolling_12m_avaliacao.png,outputs/graficos/06_10_rolling_12m_avaliacao.png,.png,2026-08-05 00:08:30.349034+00:00,310568,Atual ou posterior às bases centrais
+graficos,06_11_confirmacao_por_recalibracao.png,outputs/graficos/06_11_confirmacao_por_recalibracao.png,.png,2026-08-05 00:09:01.508631+00:00,91715,Atual ou posterior às bases centrais
+graficos,06_11_desempenho_walk_forward.png,outputs/graficos/06_11_desempenho_walk_forward.png,.png,2026-08-05 00:09:00.517763+00:00,366779,Atual ou posterior às bases centrais
+graficos,06_11_diferenca_walk_forward.png,outputs/graficos/06_11_diferenca_walk_forward.png,.png,2026-08-05 00:09:01.154644+00:00,258925,Atual ou posterior às bases centrais
+graficos,06_11_pesos_cdi_por_recalibracao.png,outputs/graficos/06_11_pesos_cdi_por_recalibracao.png,.png,2026-08-05 00:09:02.068937+00:00,219508,Atual ou posterior às bases centrais
+graficos,06_11_rolling_12m_walk_forward.png,outputs/graficos/06_11_rolling_12m_walk_forward.png,.png,2026-08-05 00:09:02.615050+00:00,259101,Atual ou posterior às bases centrais
+graficos,06_12_desempenho_modelos_finais.png,outputs/graficos/06_12_desempenho_modelos_finais.png,.png,2026-08-05 00:09:03.578705+00:00,365238,Atual ou posterior às bases centrais
+graficos,06_12_drawdown_modelos_finais.png,outputs/graficos/06_12_drawdown_modelos_finais.png,.png,2026-08-05 00:09:04.217175+00:00,343902,Atual ou posterior às bases centrais
+graficos,06_12_pesos_oficiais_por_regime.png,outputs/graficos/06_12_pesos_oficiais_por_regime.png,.png,2026-08-05 00:09:04.728958+00:00,206629,Atual ou posterior às bases centrais
+graficos,06_12_risco_retorno_modelos_finais.png,outputs/graficos/06_12_risco_retorno_modelos_finais.png,.png,2026-08-05 00:09:05.113267+00:00,160585,Atual ou posterior às bases centrais
+graficos,07_02_desempenho_acumulado.png,outputs/graficos/07_02_desempenho_acumulado.png,.png,2026-08-05 00:10:10.890647+00:00,368181,Atual ou posterior às bases centrais
+graficos,07_02_drawdown_comparativo.png,outputs/graficos/07_02_drawdown_comparativo.png,.png,2026-08-05 00:10:13.001571+00:00,345910,Atual ou posterior às bases centrais
+graficos,07_02_retornos_anuais.png,outputs/graficos/07_02_retornos_anuais.png,.png,2026-08-05 00:10:11.348080+00:00,142523,Atual ou posterior às bases centrais
+graficos,07_02_risco_retorno.png,outputs/graficos/07_02_risco_retorno.png,.png,2026-08-05 00:10:12.133954+00:00,166005,Atual ou posterior às bases centrais
+modelo_final,alocacoes_iniciais_automaticas.json,outputs/modelo_final/alocacoes_iniciais_automaticas.json,.json,2026-08-05 00:06:12.217116+00:00,2566,Mesma execução provável
+modelo_final,manifesto_arquivos.csv,outputs/modelo_final/manifesto_arquivos.csv,.csv,2026-08-05 00:09:05.338478+00:00,3483,Atual ou posterior às bases centrais
+modelo_final,metricas_modelo_oficial.json,outputs/modelo_final/metricas_modelo_oficial.json,.json,2026-08-05 00:09:02.949752+00:00,643,Atual ou posterior às bases centrais
+modelo_final,modelo_oficial.json,outputs/modelo_final/modelo_oficial.json,.json,2026-08-05 00:09:02.948753+00:00,4436,Atual ou posterior às bases centrais
+tabelas,01_status_blocos_bcb.csv,outputs/tabelas/01_status_blocos_bcb.csv,.csv,2026-08-04 23:57:24.648236+00:00,1607,Mesma execução provável
+tabelas,01_status_coleta_macro.csv,outputs/tabelas/01_status_coleta_macro.csv,.csv,2026-08-04 23:57:24.632162+00:00,480,Mesma execução provável
+tabelas,01_validacao_ativos.csv,outputs/tabelas/01_validacao_ativos.csv,.csv,2026-08-04 23:57:24.591597+00:00,5506,Mesma execução provável
+tabelas,01_validacao_series_macro.csv,outputs/tabelas/01_validacao_series_macro.csv,.csv,2026-08-04 23:57:24.614358+00:00,617,Mesma execução provável
+tabelas,02_01_ativos_selecionados_utilizados.csv,outputs/tabelas/02_01_ativos_selecionados_utilizados.csv,.csv,2026-08-04 23:57:30.464593+00:00,2099,Mesma execução provável
+tabelas,02_04_pontos_atencao_qualidade.csv,outputs/tabelas/02_04_pontos_atencao_qualidade.csv,.csv,2026-08-04 23:57:30.949429+00:00,337,Mesma execução provável
+tabelas,02_04_qualidade_ativos.csv,outputs/tabelas/02_04_qualidade_ativos.csv,.csv,2026-08-04 23:57:30.918205+00:00,1090,Mesma execução provável
+tabelas,02_04_qualidade_series_macro.csv,outputs/tabelas/02_04_qualidade_series_macro.csv,.csv,2026-08-04 23:57:30.934784+00:00,391,Mesma execução provável
+tabelas,02_05_periodos_disponiveis_ativos.csv,outputs/tabelas/02_05_periodos_disponiveis_ativos.csv,.csv,2026-08-04 23:57:31.169229+00:00,550,Mesma execução provável
+tabelas,02_05_precos_periodo_comum.csv,outputs/tabelas/02_05_precos_periodo_comum.csv,.csv,2026-08-04 23:57:31.140577+00:00,322338,Mesma execução provável
+tabelas,02_06_resumo_desempenho_ativos.csv,outputs/tabelas/02_06_resumo_desempenho_ativos.csv,.csv,2026-08-04 23:57:31.365561+00:00,2331,Mesma execução provável
+tabelas,02_06_resumo_desempenho_ativos_formatado.csv,outputs/tabelas/02_06_resumo_desempenho_ativos_formatado.csv,.csv,2026-08-04 23:57:31.385442+00:00,1029,Mesma execução provável
+tabelas,02_07_resumo_dados_macro_mensais.csv,outputs/tabelas/02_07_resumo_dados_macro_mensais.csv,.csv,2026-08-04 23:57:31.532556+00:00,1275,Mesma execução provável
+tabelas,02_08_resumo_precos_normalizados.csv,outputs/tabelas/02_08_resumo_precos_normalizados.csv,.csv,2026-08-04 23:57:31.611507+00:00,1512,Mesma execução provável
+tabelas,02_09_resumo_retorno_acumulado.csv,outputs/tabelas/02_09_resumo_retorno_acumulado.csv,.csv,2026-08-04 23:57:31.710070+00:00,856,Mesma execução provável
+tabelas,02_10_resumo_volatilidade_movel.csv,outputs/tabelas/02_10_resumo_volatilidade_movel.csv,.csv,2026-08-04 23:57:31.832105+00:00,1671,Mesma execução provável
+tabelas,02_11_resumo_drawdown_ativos.csv,outputs/tabelas/02_11_resumo_drawdown_ativos.csv,.csv,2026-08-04 23:57:31.917212+00:00,1982,Mesma execução provável
+tabelas,02_12_pares_correlacao_retornos.csv,outputs/tabelas/02_12_pares_correlacao_retornos.csv,.csv,2026-08-04 23:57:32.024279+00:00,4269,Mesma execução provável
+tabelas,02_12_resumo_correlacao_retornos.csv,outputs/tabelas/02_12_resumo_correlacao_retornos.csv,.csv,2026-08-04 23:57:32.040492+00:00,242,Mesma execução provável
+tabelas,02_16_conferencia_final_arquivos.csv,outputs/tabelas/02_16_conferencia_final_arquivos.csv,.csv,2026-08-04 23:57:42.033924+00:00,895,Mesma execução provável
+tabelas,02_diagnostico_imab11_por_ano.csv,outputs/tabelas/02_diagnostico_imab11_por_ano.csv,.csv,2026-08-04 23:57:32.646994+00:00,534,Mesma execução provável
+tabelas,02_diagnostico_imab11_ultimos_registros.csv,outputs/tabelas/02_diagnostico_imab11_ultimos_registros.csv,.csv,2026-08-04 23:57:32.667329+00:00,1648,Mesma execução provável
+tabelas,02_segmento_commodities_correlacao.csv,outputs/tabelas/02_segmento_commodities_correlacao.csv,.csv,2026-08-04 23:57:32.137538+00:00,176,Mesma execução provável
+tabelas,02_segmento_commodities_desempenho.csv,outputs/tabelas/02_segmento_commodities_desempenho.csv,.csv,2026-08-04 23:57:32.058625+00:00,700,Mesma execução provável
+tabelas,02_segmento_commodities_drawdown.csv,outputs/tabelas/02_segmento_commodities_drawdown.csv,.csv,2026-08-04 23:57:32.119915+00:00,634,Mesma execução provável
+tabelas,02_segmento_commodities_pares_correlacao.csv,outputs/tabelas/02_segmento_commodities_pares_correlacao.csv,.csv,2026-08-04 23:57:32.158184+00:00,242,Mesma execução provável
+tabelas,02_segmento_commodities_precos_normalizados.csv,outputs/tabelas/02_segmento_commodities_precos_normalizados.csv,.csv,2026-08-04 23:57:32.075108+00:00,465,Mesma execução provável
+tabelas,02_segmento_commodities_resumo_correlacao.csv,outputs/tabelas/02_segmento_commodities_resumo_correlacao.csv,.csv,2026-08-04 23:57:32.171079+00:00,242,Mesma execução provável
+tabelas,02_segmento_commodities_retorno_acumulado.csv,outputs/tabelas/02_segmento_commodities_retorno_acumulado.csv,.csv,2026-08-04 23:57:32.089422+00:00,254,Mesma execução provável
+tabelas,02_segmento_commodities_volatilidade_movel.csv,outputs/tabelas/02_segmento_commodities_volatilidade_movel.csv,.csv,2026-08-04 23:57:32.105267+00:00,560,Mesma execução provável
+tabelas,02_segmento_moedas_correlacao.csv,outputs/tabelas/02_segmento_moedas_correlacao.csv,.csv,2026-08-04 23:57:32.412999+00:00,194,Mesma execução provável
+tabelas,02_segmento_moedas_desempenho.csv,outputs/tabelas/02_segmento_moedas_desempenho.csv,.csv,2026-08-04 23:57:32.331603+00:00,720,Mesma execução provável
+tabelas,02_segmento_moedas_drawdown.csv,outputs/tabelas/02_segmento_moedas_drawdown.csv,.csv,2026-08-04 23:57:32.396185+00:00,647,Mesma execução provável
+tabelas,02_segmento_moedas_pares_correlacao.csv,outputs/tabelas/02_segmento_moedas_pares_correlacao.csv,.csv,2026-08-04 23:57:32.431878+00:00,260,Mesma execução provável
+tabelas,02_segmento_moedas_precos_normalizados.csv,outputs/tabelas/02_segmento_moedas_precos_normalizados.csv,.csv,2026-08-04 23:57:32.347610+00:00,456,Mesma execução provável
+tabelas,02_segmento_moedas_resumo_correlacao.csv,outputs/tabelas/02_segmento_moedas_resumo_correlacao.csv,.csv,2026-08-04 23:57:32.447943+00:00,235,Mesma execução provável
+tabelas,02_segmento_moedas_retorno_acumulado.csv,outputs/tabelas/02_segmento_moedas_retorno_acumulado.csv,.csv,2026-08-04 23:57:32.364389+00:00,269,Mesma execução provável
+tabelas,02_segmento_moedas_volatilidade_movel.csv,outputs/tabelas/02_segmento_moedas_volatilidade_movel.csv,.csv,2026-08-04 23:57:32.380033+00:00,575,Mesma execução provável
+tabelas,02_segmento_renda_fixa_correlacao.csv,outputs/tabelas/02_segmento_renda_fixa_correlacao.csv,.csv,2026-08-04 23:57:32.561888+00:00,204,Mesma execução provável
+tabelas,02_segmento_renda_fixa_desempenho.csv,outputs/tabelas/02_segmento_renda_fixa_desempenho.csv,.csv,2026-08-04 23:57:32.466597+00:00,716,Mesma execução provável
+tabelas,02_segmento_renda_fixa_drawdown.csv,outputs/tabelas/02_segmento_renda_fixa_drawdown.csv,.csv,2026-08-04 23:57:32.539431+00:00,650,Mesma execução provável
+tabelas,02_segmento_renda_fixa_pares_correlacao.csv,outputs/tabelas/02_segmento_renda_fixa_pares_correlacao.csv,.csv,2026-08-04 23:57:32.590176+00:00,270,Mesma execução provável
+tabelas,02_segmento_renda_fixa_precos_normalizados.csv,outputs/tabelas/02_segmento_renda_fixa_precos_normalizados.csv,.csv,2026-08-04 23:57:32.481982+00:00,482,Mesma execução provável
+tabelas,02_segmento_renda_fixa_resumo_correlacao.csv,outputs/tabelas/02_segmento_renda_fixa_resumo_correlacao.csv,.csv,2026-08-04 23:57:32.612509+00:00,237,Mesma execução provável
+tabelas,02_segmento_renda_fixa_retorno_acumulado.csv,outputs/tabelas/02_segmento_renda_fixa_retorno_acumulado.csv,.csv,2026-08-04 23:57:32.498082+00:00,268,Mesma execução provável
+tabelas,02_segmento_renda_fixa_volatilidade_movel.csv,outputs/tabelas/02_segmento_renda_fixa_volatilidade_movel.csv,.csv,2026-08-04 23:57:32.514817+00:00,518,Mesma execução provável
+tabelas,02_segmento_renda_variavel_correlacao.csv,outputs/tabelas/02_segmento_renda_variavel_correlacao.csv,.csv,2026-08-04 23:57:32.277279+00:00,200,Mesma execução provável
+tabelas,02_segmento_renda_variavel_desempenho.csv,outputs/tabelas/02_segmento_renda_variavel_desempenho.csv,.csv,2026-08-04 23:57:32.189638+00:00,714,Mesma execução provável
+tabelas,02_segmento_renda_variavel_drawdown.csv,outputs/tabelas/02_segmento_renda_variavel_drawdown.csv,.csv,2026-08-04 23:57:32.260517+00:00,651,Mesma execução provável
+tabelas,02_segmento_renda_variavel_pares_correlacao.csv,outputs/tabelas/02_segmento_renda_variavel_pares_correlacao.csv,.csv,2026-08-04 23:57:32.298255+00:00,266,Mesma execução provável
+tabelas,02_segmento_renda_variavel_precos_normalizados.csv,outputs/tabelas/02_segmento_renda_variavel_precos_normalizados.csv,.csv,2026-08-04 23:57:32.206121+00:00,484,Mesma execução provável
+tabelas,02_segmento_renda_variavel_resumo_correlacao.csv,outputs/tabelas/02_segmento_renda_variavel_resumo_correlacao.csv,.csv,2026-08-04 23:57:32.312288+00:00,235,Mesma execução provável
+tabelas,02_segmento_renda_variavel_retorno_acumulado.csv,outputs/tabelas/02_segmento_renda_variavel_retorno_acumulado.csv,.csv,2026-08-04 23:57:32.225314+00:00,266,Mesma execução provável
+tabelas,02_segmento_renda_variavel_volatilidade_movel.csv,outputs/tabelas/02_segmento_renda_variavel_volatilidade_movel.csv,.csv,2026-08-04 23:57:32.240066+00:00,582,Mesma execução provável
+tabelas,03_validacoes_regimes_macroeconomicos.csv,outputs/tabelas/03_validacoes_regimes_macroeconomicos.csv,.csv,2026-08-04 23:58:09.826145+00:00,708,Mesma execução provável
+tabelas,04_ativos_aprovados_utilizados.csv,outputs/tabelas/04_ativos_aprovados_utilizados.csv,.csv,2026-08-05 00:06:12.330203+00:00,2657,Mesma execução provável
+tabelas,04_metricas_portfolio.csv,outputs/tabelas/04_metricas_portfolio.csv,.csv,2026-08-05 00:06:12.295116+00:00,545,Mesma execução provável
+tabelas,04_pesos_por_regime.csv,outputs/tabelas/04_pesos_por_regime.csv,.csv,2026-08-05 00:06:12.312660+00:00,1257,Mesma execução provável
+tabelas,04_validacoes_alocacao.csv,outputs/tabelas/04_validacoes_alocacao.csv,.csv,2026-08-05 00:06:12.348537+00:00,647,Mesma execução provável
+tabelas,05_configuracoes_backtest.csv,outputs/tabelas/05_configuracoes_backtest.csv,.csv,2026-08-05 00:06:53.494889+00:00,662,Atual ou posterior às bases centrais
+tabelas,05_contribuicao_media_por_regime.csv,outputs/tabelas/05_contribuicao_media_por_regime.csv,.csv,2026-08-05 00:06:53.377120+00:00,1958,Atual ou posterior às bases centrais
+tabelas,05_custo_break_even.csv,outputs/tabelas/05_custo_break_even.csv,.csv,2026-08-05 00:06:53.408791+00:00,282,Atual ou posterior às bases centrais
+tabelas,05_desempenho_por_regime.csv,outputs/tabelas/05_desempenho_por_regime.csv,.csv,2026-08-05 00:06:53.361330+00:00,1704,Atual ou posterior às bases centrais
+tabelas,05_diagnostico_estrategia.csv,outputs/tabelas/05_diagnostico_estrategia.csv,.csv,2026-08-05 00:06:53.477265+00:00,367,Atual ou posterior às bases centrais
+tabelas,05_metricas_backtest.csv,outputs/tabelas/05_metricas_backtest.csv,.csv,2026-08-05 00:06:53.331160+00:00,1722,Atual ou posterior às bases centrais
+tabelas,05_metricas_backtest_formatadas.csv,outputs/tabelas/05_metricas_backtest_formatadas.csv,.csv,2026-08-05 00:06:53.345825+00:00,876,Atual ou posterior às bases centrais
+tabelas,05_metricas_moveis_12m.csv,outputs/tabelas/05_metricas_moveis_12m.csv,.csv,2026-08-05 00:06:53.445737+00:00,10816,Atual ou posterior às bases centrais
+tabelas,05_resultados_anuais.csv,outputs/tabelas/05_resultados_anuais.csv,.csv,2026-08-05 00:06:53.427686+00:00,920,Atual ou posterior às bases centrais
+tabelas,05_resumo_final_backtest.csv,outputs/tabelas/05_resumo_final_backtest.csv,.csv,2026-08-05 00:06:53.462779+00:00,1002,Atual ou posterior às bases centrais
+tabelas,05_resumo_turnover_custos.csv,outputs/tabelas/05_resumo_turnover_custos.csv,.csv,2026-08-05 00:06:53.290256+00:00,455,Atual ou posterior às bases centrais
+tabelas,05_sensibilidade_custos.csv,outputs/tabelas/05_sensibilidade_custos.csv,.csv,2026-08-05 00:06:53.393547+00:00,1114,Atual ou posterior às bases centrais
+tabelas,05_turnover_custos_mensal.csv,outputs/tabelas/05_turnover_custos_mensal.csv,.csv,2026-08-05 00:06:53.306910+00:00,21617,Atual ou posterior às bases centrais
+tabelas,05_validacao_final_backtest.csv,outputs/tabelas/05_validacao_final_backtest.csv,.csv,2026-08-05 00:06:53.511291+00:00,785,Atual ou posterior às bases centrais
+tabelas,06_01_inventario_bases.csv,outputs/tabelas/06_01_inventario_bases.csv,.csv,2026-08-05 00:07:52.222624+00:00,597,Atual ou posterior às bases centrais
+tabelas,06_01_resumo_modelo_original.csv,outputs/tabelas/06_01_resumo_modelo_original.csv,.csv,2026-08-05 00:07:52.225746+00:00,562,Atual ou posterior às bases centrais
+tabelas,06_01_status_ativos_adicionais.csv,outputs/tabelas/06_01_status_ativos_adicionais.csv,.csv,2026-08-05 00:07:52.224456+00:00,101,Atual ou posterior às bases centrais
+tabelas,06_02_regimes_suavizados.csv,outputs/tabelas/06_02_regimes_suavizados.csv,.csv,2026-08-05 00:07:52.946402+00:00,8380,Atual ou posterior às bases centrais
+tabelas,06_02_resumo_suavizacao_regimes.csv,outputs/tabelas/06_02_resumo_suavizacao_regimes.csv,.csv,2026-08-05 00:07:52.947528+00:00,358,Atual ou posterior às bases centrais
+tabelas,06_02_resumo_suavizacao_regimes_formatado.csv,outputs/tabelas/06_02_resumo_suavizacao_regimes_formatado.csv,.csv,2026-08-05 00:07:52.949913+00:00,305,Atual ou posterior às bases centrais
+tabelas,06_03_comparacao_regimes_suavizados.csv,outputs/tabelas/06_03_comparacao_regimes_suavizados.csv,.csv,2026-08-05 00:07:55.904966+00:00,1668,Atual ou posterior às bases centrais
+tabelas,06_03_comparacao_regimes_suavizados_formatada.csv,outputs/tabelas/06_03_comparacao_regimes_suavizados_formatada.csv,.csv,2026-08-05 00:07:55.909203+00:00,920,Atual ou posterior às bases centrais
+tabelas,06_03_pesos_originais_por_regime.csv,outputs/tabelas/06_03_pesos_originais_por_regime.csv,.csv,2026-08-05 00:07:55.954535+00:00,1176,Atual ou posterior às bases centrais
+tabelas,06_03_series_mensais_regimes_suavizados.csv,outputs/tabelas/06_03_series_mensais_regimes_suavizados.csv,.csv,2026-08-05 00:07:55.950027+00:00,244015,Atual ou posterior às bases centrais
+tabelas,06_04_selecao_cenario_treino.csv,outputs/tabelas/06_04_selecao_cenario_treino.csv,.csv,2026-08-05 00:07:58.929885+00:00,679,Atual ou posterior às bases centrais
+tabelas,06_04_series_fora_amostra.csv,outputs/tabelas/06_04_series_fora_amostra.csv,.csv,2026-08-05 00:07:58.932016+00:00,2927,Atual ou posterior às bases centrais
+tabelas,06_04_validacao_treino_teste.csv,outputs/tabelas/06_04_validacao_treino_teste.csv,.csv,2026-08-05 00:07:58.923170+00:00,2865,Atual ou posterior às bases centrais
+tabelas,06_04_validacao_treino_teste_formatada.csv,outputs/tabelas/06_04_validacao_treino_teste_formatada.csv,.csv,2026-08-05 00:07:58.927891+00:00,1559,Atual ou posterior às bases centrais
+tabelas,06_05_grade_otimizacao_pesos.csv,outputs/tabelas/06_05_grade_otimizacao_pesos.csv,.csv,2026-08-05 00:08:02.916242+00:00,11035,Atual ou posterior às bases centrais
+tabelas,06_05_grade_otimizacao_pesos_formatada.csv,outputs/tabelas/06_05_grade_otimizacao_pesos_formatada.csv,.csv,2026-08-05 00:08:02.918468+00:00,5734,Atual ou posterior às bases centrais
+tabelas,06_05_parametros_selecionados.csv,outputs/tabelas/06_05_parametros_selecionados.csv,.csv,2026-08-05 00:08:02.918468+00:00,1072,Atual ou posterior às bases centrais
+tabelas,06_05_pesos_selecionados_por_regime.csv,outputs/tabelas/06_05_pesos_selecionados_por_regime.csv,.csv,2026-08-05 00:08:02.919562+00:00,1324,Atual ou posterior às bases centrais
+tabelas,06_05_series_teste_parametros_selecionados.csv,outputs/tabelas/06_05_series_teste_parametros_selecionados.csv,.csv,2026-08-05 00:08:02.921941+00:00,13810,Atual ou posterior às bases centrais
+tabelas,06_06_contribuicao_ativos_por_regime.csv,outputs/tabelas/06_06_contribuicao_ativos_por_regime.csv,.csv,2026-08-05 00:08:05.034410+00:00,22519,Atual ou posterior às bases centrais
+tabelas,06_06_contribuicao_ativos_por_regime_formatado.csv,outputs/tabelas/06_06_contribuicao_ativos_por_regime_formatado.csv,.csv,2026-08-05 00:08:05.037216+00:00,11506,Atual ou posterior às bases centrais
+tabelas,06_06_diagnostico_por_regime.csv,outputs/tabelas/06_06_diagnostico_por_regime.csv,.csv,2026-08-05 00:08:05.030177+00:00,3472,Atual ou posterior às bases centrais
+tabelas,06_06_diagnostico_por_regime_formatado.csv,outputs/tabelas/06_06_diagnostico_por_regime_formatado.csv,.csv,2026-08-05 00:08:05.031279+00:00,1953,Atual ou posterior às bases centrais
+tabelas,06_06_regimes_problematicos_teste.csv,outputs/tabelas/06_06_regimes_problematicos_teste.csv,.csv,2026-08-05 00:08:05.038213+00:00,531,Atual ou posterior às bases centrais
+tabelas,06_06_resumo_diagnostico.csv,outputs/tabelas/06_06_resumo_diagnostico.csv,.csv,2026-08-05 00:08:05.052256+00:00,558,Atual ou posterior às bases centrais
+tabelas,06_06_series_mensais_diagnostico.csv,outputs/tabelas/06_06_series_mensais_diagnostico.csv,.csv,2026-08-05 00:08:05.051221+00:00,130736,Atual ou posterior às bases centrais
+tabelas,06_07_betas_selecionados_por_regime.csv,outputs/tabelas/06_07_betas_selecionados_por_regime.csv,.csv,2026-08-05 00:08:10.317048+00:00,835,Atual ou posterior às bases centrais
+tabelas,06_07_grade_ajustes_por_regime.csv,outputs/tabelas/06_07_grade_ajustes_por_regime.csv,.csv,2026-08-05 00:08:10.313196+00:00,6508,Atual ou posterior às bases centrais
+tabelas,06_07_grade_ajustes_por_regime_formatada.csv,outputs/tabelas/06_07_grade_ajustes_por_regime_formatada.csv,.csv,2026-08-05 00:08:10.315778+00:00,3467,Atual ou posterior às bases centrais
+tabelas,06_07_metricas_comparativas.csv,outputs/tabelas/06_07_metricas_comparativas.csv,.csv,2026-08-05 00:08:10.319186+00:00,1821,Atual ou posterior às bases centrais
+tabelas,06_07_metricas_comparativas_formatadas.csv,outputs/tabelas/06_07_metricas_comparativas_formatadas.csv,.csv,2026-08-05 00:08:10.320336+00:00,982,Atual ou posterior às bases centrais
+tabelas,06_07_pesos_otimizados_por_regime.csv,outputs/tabelas/06_07_pesos_otimizados_por_regime.csv,.csv,2026-08-05 00:08:10.318063+00:00,3178,Atual ou posterior às bases centrais
+tabelas,06_07_resumo_ajuste_regimes.csv,outputs/tabelas/06_07_resumo_ajuste_regimes.csv,.csv,2026-08-05 00:08:10.327300+00:00,801,Atual ou posterior às bases centrais
+tabelas,06_07_series_mensais_otimizadas.csv,outputs/tabelas/06_07_series_mensais_otimizadas.csv,.csv,2026-08-05 00:08:10.324682+00:00,39888,Atual ou posterior às bases centrais
+tabelas,06_08_arquivos_proxy_removidos.csv,outputs/tabelas/06_08_arquivos_proxy_removidos.csv,.csv,2026-08-05 00:08:12.574501+00:00,434,Atual ou posterior às bases centrais
+tabelas,06_08_resumo_renda_fixa.csv,outputs/tabelas/06_08_resumo_renda_fixa.csv,.csv,2026-08-05 00:08:12.571734+00:00,257,Atual ou posterior às bases centrais
+tabelas,06_08_status_fontes_renda_fixa.csv,outputs/tabelas/06_08_status_fontes_renda_fixa.csv,.csv,2026-08-05 00:08:12.568145+00:00,320,Atual ou posterior às bases centrais
+tabelas,06_08_validacao_renda_fixa.csv,outputs/tabelas/06_08_validacao_renda_fixa.csv,.csv,2026-08-05 00:08:12.570339+00:00,326,Atual ou posterior às bases centrais
+tabelas,06_09_grade_otimizacao_cdi.csv,outputs/tabelas/06_09_grade_otimizacao_cdi.csv,.csv,2026-08-05 00:08:22.515540+00:00,1736584,Atual ou posterior às bases centrais
+tabelas,06_09_grade_otimizacao_cdi_formatada.csv,outputs/tabelas/06_09_grade_otimizacao_cdi_formatada.csv,.csv,2026-08-05 00:08:22.562897+00:00,906199,Atual ou posterior às bases centrais
+tabelas,06_09_metricas_treino_avaliacao.csv,outputs/tabelas/06_09_metricas_treino_avaliacao.csv,.csv,2026-08-05 00:08:22.566809+00:00,2372,Atual ou posterior às bases centrais
+tabelas,06_09_metricas_treino_avaliacao_formatadas.csv,outputs/tabelas/06_09_metricas_treino_avaliacao_formatadas.csv,.csv,2026-08-05 00:08:22.567807+00:00,1272,Atual ou posterior às bases centrais
+tabelas,06_09_parametros_selecionados_cdi.csv,outputs/tabelas/06_09_parametros_selecionados_cdi.csv,.csv,2026-08-05 00:08:22.562897+00:00,828,Atual ou posterior às bases centrais
+tabelas,06_09_pesos_selecionados_5_ativos.csv,outputs/tabelas/06_09_pesos_selecionados_5_ativos.csv,.csv,2026-08-05 00:08:22.564404+00:00,1061,Atual ou posterior às bases centrais
+tabelas,06_09_resumo_otimizacao_cdi.csv,outputs/tabelas/06_09_resumo_otimizacao_cdi.csv,.csv,2026-08-05 00:08:22.574307+00:00,947,Atual ou posterior às bases centrais
+tabelas,06_09_series_mensais_modelo_cdi.csv,outputs/tabelas/06_09_series_mensais_modelo_cdi.csv,.csv,2026-08-05 00:08:22.572794+00:00,52998,Atual ou posterior às bases centrais
+tabelas,06_09_validacao_otimizacao_cdi.csv,outputs/tabelas/06_09_validacao_otimizacao_cdi.csv,.csv,2026-08-05 00:08:24.741507+00:00,411,Atual ou posterior às bases centrais
+tabelas,06_10_decisao_modelo.csv,outputs/tabelas/06_10_decisao_modelo.csv,.csv,2026-08-05 00:08:27.901157+00:00,632,Atual ou posterior às bases centrais
+tabelas,06_10_grade_sensibilidade_cdi.csv,outputs/tabelas/06_10_grade_sensibilidade_cdi.csv,.csv,2026-08-05 00:08:27.896869+00:00,691330,Atual ou posterior às bases centrais
+tabelas,06_10_metricas_comparadores.csv,outputs/tabelas/06_10_metricas_comparadores.csv,.csv,2026-08-05 00:08:27.833596+00:00,4008,Atual ou posterior às bases centrais
+tabelas,06_10_metricas_comparadores_formatadas.csv,outputs/tabelas/06_10_metricas_comparadores_formatadas.csv,.csv,2026-08-05 00:08:27.835066+00:00,1890,Atual ou posterior às bases centrais
+tabelas,06_10_pesos_carteira_estatica.csv,outputs/tabelas/06_10_pesos_carteira_estatica.csv,.csv,2026-08-05 00:08:27.842819+00:00,1037,Atual ou posterior às bases centrais
+tabelas,06_10_resumo_final_robustez.csv,outputs/tabelas/06_10_resumo_final_robustez.csv,.csv,2026-08-05 00:08:27.901157+00:00,1559,Atual ou posterior às bases centrais
+tabelas,06_10_resumo_sensibilidade.csv,outputs/tabelas/06_10_resumo_sensibilidade.csv,.csv,2026-08-05 00:08:27.898886+00:00,798,Atual ou posterior às bases centrais
+tabelas,06_10_rolling_12m_avaliacao.csv,outputs/tabelas/06_10_rolling_12m_avaliacao.csv,.csv,2026-08-05 00:08:27.900155+00:00,3163,Atual ou posterior às bases centrais
+tabelas,06_10_sensibilidade_por_confirmacao.csv,outputs/tabelas/06_10_sensibilidade_por_confirmacao.csv,.csv,2026-08-05 00:08:27.897873+00:00,671,Atual ou posterior às bases centrais
+tabelas,06_10_series_comparadores.csv,outputs/tabelas/06_10_series_comparadores.csv,.csv,2026-08-05 00:08:27.841642+00:00,55793,Atual ou posterior às bases centrais
+tabelas,06_10_validacoes.csv,outputs/tabelas/06_10_validacoes.csv,.csv,2026-08-05 00:08:30.356045+00:00,692,Atual ou posterior às bases centrais
+tabelas,06_11_estabilidade_parametros.csv,outputs/tabelas/06_11_estabilidade_parametros.csv,.csv,2026-08-05 00:08:59.890825+00:00,665,Atual ou posterior às bases centrais
+tabelas,06_11_grade_selecao_walk_forward.csv,outputs/tabelas/06_11_grade_selecao_walk_forward.csv,.csv,2026-08-05 00:08:59.885485+00:00,6538052,Atual ou posterior às bases centrais
+tabelas,06_11_janelas_walk_forward.csv,outputs/tabelas/06_11_janelas_walk_forward.csv,.csv,2026-08-05 00:08:59.413631+00:00,438,Atual ou posterior às bases centrais
+tabelas,06_11_metricas_comparativas.csv,outputs/tabelas/06_11_metricas_comparativas.csv,.csv,2026-08-05 00:08:59.900293+00:00,2786,Atual ou posterior às bases centrais
+tabelas,06_11_metricas_comparativas_formatadas.csv,outputs/tabelas/06_11_metricas_comparativas_formatadas.csv,.csv,2026-08-05 00:08:59.902722+00:00,1617,Atual ou posterior às bases centrais
+tabelas,06_11_parametros_por_recalibracao.csv,outputs/tabelas/06_11_parametros_por_recalibracao.csv,.csv,2026-08-05 00:08:59.886878+00:00,1006,Atual ou posterior às bases centrais
+tabelas,06_11_pesos_por_recalibracao.csv,outputs/tabelas/06_11_pesos_por_recalibracao.csv,.csv,2026-08-05 00:08:59.887883+00:00,3227,Atual ou posterior às bases centrais
+tabelas,06_11_resultados_anuais.csv,outputs/tabelas/06_11_resultados_anuais.csv,.csv,2026-08-05 00:08:59.906358+00:00,2086,Atual ou posterior às bases centrais
+tabelas,06_11_resumo_walk_forward.csv,outputs/tabelas/06_11_resumo_walk_forward.csv,.csv,2026-08-05 00:08:59.906358+00:00,1999,Atual ou posterior às bases centrais
+tabelas,06_11_rolling_12m.csv,outputs/tabelas/06_11_rolling_12m.csv,.csv,2026-08-05 00:08:59.904228+00:00,2968,Atual ou posterior às bases centrais
+tabelas,06_11_series_walk_forward.csv,outputs/tabelas/06_11_series_walk_forward.csv,.csv,2026-08-05 00:08:59.897907+00:00,74321,Atual ou posterior às bases centrais
+tabelas,06_11_validacoes.csv,outputs/tabelas/06_11_validacoes.csv,.csv,2026-08-05 00:09:02.623309+00:00,591,Atual ou posterior às bases centrais
+tabelas,06_12_configuracao_modelo_oficial.csv,outputs/tabelas/06_12_configuracao_modelo_oficial.csv,.csv,2026-08-05 00:09:02.931108+00:00,1255,Atual ou posterior às bases centrais
+tabelas,06_12_decisao_final_modelo.csv,outputs/tabelas/06_12_decisao_final_modelo.csv,.csv,2026-08-05 00:09:02.930105+00:00,884,Atual ou posterior às bases centrais
+tabelas,06_12_limitacoes_metodologicas.csv,outputs/tabelas/06_12_limitacoes_metodologicas.csv,.csv,2026-08-05 00:09:02.944422+00:00,1215,Atual ou posterior às bases centrais
+tabelas,06_12_metricas_finais_modelos.csv,outputs/tabelas/06_12_metricas_finais_modelos.csv,.csv,2026-08-05 00:09:02.936370+00:00,2705,Atual ou posterior às bases centrais
+tabelas,06_12_metricas_finais_modelos_formatadas.csv,outputs/tabelas/06_12_metricas_finais_modelos_formatadas.csv,.csv,2026-08-05 00:09:02.938368+00:00,1617,Atual ou posterior às bases centrais
+tabelas,06_12_pesos_oficiais_atuais.csv,outputs/tabelas/06_12_pesos_oficiais_atuais.csv,.csv,2026-08-05 00:09:02.933349+00:00,1316,Atual ou posterior às bases centrais
+tabelas,06_12_resumo_modelo_final.csv,outputs/tabelas/06_12_resumo_modelo_final.csv,.csv,2026-08-05 00:09:02.945464+00:00,1417,Atual ou posterior às bases centrais
+tabelas,06_12_series_modelos_finais.csv,outputs/tabelas/06_12_series_modelos_finais.csv,.csv,2026-08-05 00:09:02.942916+00:00,34101,Atual ou posterior às bases centrais
+tabelas,06_12_validacoes_finais.csv,outputs/tabelas/06_12_validacoes_finais.csv,.csv,2026-08-05 00:09:05.121775+00:00,1166,Atual ou posterior às bases centrais
+tabelas,07_01_inventario_arquivos_finais.csv,outputs/tabelas/07_01_inventario_arquivos_finais.csv,.csv,2026-08-05 00:10:09.923267+00:00,1398,Atual ou posterior às bases centrais
+tabelas,07_01_resumo_base_final.csv,outputs/tabelas/07_01_resumo_base_final.csv,.csv,2026-08-05 00:10:09.925397+00:00,1215,Atual ou posterior às bases centrais
+tabelas,07_01_validacoes_entradas.csv,outputs/tabelas/07_01_validacoes_entradas.csv,.csv,2026-08-05 00:10:09.929712+00:00,1373,Atual ou posterior às bases centrais
+tabelas,07_02_comparacao_desempenho_risco.csv,outputs/tabelas/07_02_comparacao_desempenho_risco.csv,.csv,2026-08-05 00:10:10.318530+00:00,2586,Atual ou posterior às bases centrais
+tabelas,07_02_comparacao_desempenho_risco_formatada.csv,outputs/tabelas/07_02_comparacao_desempenho_risco_formatada.csv,.csv,2026-08-05 00:10:10.319688+00:00,1322,Atual ou posterior às bases centrais
+tabelas,07_02_comparacao_mensal_modelo_oficial.csv,outputs/tabelas/07_02_comparacao_mensal_modelo_oficial.csv,.csv,2026-08-05 00:10:10.323977+00:00,908,Atual ou posterior às bases centrais
+tabelas,07_02_conclusoes_comparativas.csv,outputs/tabelas/07_02_conclusoes_comparativas.csv,.csv,2026-08-05 00:10:10.328691+00:00,778,Atual ou posterior às bases centrais
+tabelas,07_02_posicoes_por_metrica.csv,outputs/tabelas/07_02_posicoes_por_metrica.csv,.csv,2026-08-05 00:10:10.327645+00:00,1000,Atual ou posterior às bases centrais
+tabelas,07_02_resultados_anuais.csv,outputs/tabelas/07_02_resultados_anuais.csv,.csv,2026-08-05 00:10:10.321977+00:00,2437,Atual ou posterior às bases centrais
+tabelas,07_02_resultados_anuais_formatados.csv,outputs/tabelas/07_02_resultados_anuais_formatados.csv,.csv,2026-08-05 00:10:10.322979+00:00,1724,Atual ou posterior às bases centrais
+tabelas,07_02_validacoes.csv,outputs/tabelas/07_02_validacoes.csv,.csv,2026-08-05 00:10:13.017037+00:00,399,Atual ou posterior às bases centrais

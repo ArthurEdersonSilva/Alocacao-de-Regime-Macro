@@ -1,0 +1,2 @@
+﻿episodio,regime,nome_regime,inicio,fim,meses,retorno_estrategia,retorno_benchmark,retorno_cdi,excesso_vs_benchmark,melhor_ativo,retorno_melhor_ativo,pior_ativo,retorno_pior_ativo
+1,EXPANSAO_DESINFLACIONARIA,Expansão desinflacionária,2026-01-31,2026-05-31,5,0.05042719891341063,0.05042719891341063,0.0566056848875105,0.0,IMAB11.SA,0.4325786086748269,NG=F,-0.17170189873512465

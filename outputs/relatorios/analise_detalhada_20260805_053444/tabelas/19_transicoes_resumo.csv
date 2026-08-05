@@ -1,0 +1,12 @@
+﻿transicao,data,regime_anterior,novo_regime,retorno_3m_antes,retorno_mes_0_a_3
+1,2020-02-29,Expansão desinflacionária,Expansão inflacionária,-0.0067258041846283145,-0.00760657667918041
+2,2020-05-31,Expansão inflacionária,Recessão desinflacionária,-0.0375345212806073,0.16280465905108277
+3,2020-10-31,Recessão desinflacionária,Expansão inflacionária,0.08740961411990478,0.11927126321013692
+4,2021-05-31,Expansão inflacionária,Estagflação,0.05227166368462677,-0.005796556886703663
+5,2021-10-31,Estagflação,Expansão inflacionária,-0.0016123521642484873,0.006784734312205165
+6,2022-02-28,Expansão inflacionária,Expansão desinflacionária,0.024654226726246398,0.0307673573313465
+7,2022-06-30,Expansão desinflacionária,Expansão inflacionária,0.04522524293941421,-0.010867795834859972
+8,2022-09-30,Expansão inflacionária,Expansão desinflacionária,-0.0019180338305145872,-0.012377149507432517
+9,2024-08-31,Expansão desinflacionária,Expansão inflacionária,0.028162426953198816,0.08351636171079457
+10,2025-09-30,Expansão inflacionária,Recessão desinflacionária,-0.01648588505793802,0.10156842741117034
+11,2025-12-31,Recessão desinflacionária,Expansão desinflacionária,0.09375123676599229,0.06476042964306594

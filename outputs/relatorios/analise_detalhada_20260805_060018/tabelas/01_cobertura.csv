@@ -1,0 +1,8 @@
+﻿base,registros,inicio,fim,colunas,ausentes
+retornos_diarios,1597,2020-01-03,2026-08-04,13,0
+retornos_mensais,80,2020-01-31,2026-08-31,13,0
+macro,272,2004-01-31,2026-08-31,12,84
+regimes,255,2005-03-31,2026-05-31,25,172
+alocacao,77,2020-01-31,2026-05-31,57,0
+backtest,77,2020-01-31,2026-05-31,90,0
+series_finais,29,2024-01-31,2026-05-31,73,0

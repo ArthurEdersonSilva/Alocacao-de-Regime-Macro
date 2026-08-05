@@ -1,0 +1,12 @@
+﻿arquivo,caminho,existe,modificacao_utc,tamanho_bytes,possivelmente_desatualizado
+selecao,data/processed/ativos_selecionados_modelo.csv,True,2026-08-04 23:53:21.807107+00:00,1951,True
+retornos,data/processed/retornos_ativos.csv,True,2026-08-04 23:57:31.219470+00:00,394387,True
+macro,data/processed/dados_macro_mensais.csv,True,2026-08-04 23:57:31.495142+00:00,49127,True
+regimes,data/processed/regimes_macroeconomicos.csv,True,2026-08-04 23:58:09.774892+00:00,71965,False
+alocacao,data/processed/alocacao_portfolio_mensal.csv,True,2026-08-05 00:06:12.266353+00:00,81281,False
+backtest,data/processed/backtest_portfolio_mensal.csv,True,2026-08-05 00:06:53.268333+00:00,124847,False
+series_finais,outputs/tabelas/06_12_series_modelos_finais.csv,True,2026-08-05 00:09:02.942916+00:00,34101,False
+metricas_finais,outputs/tabelas/06_12_metricas_finais_modelos.csv,True,2026-08-05 00:09:02.936370+00:00,2705,False
+pesos_oficiais,outputs/tabelas/06_12_pesos_oficiais_atuais.csv,True,2026-08-05 00:09:02.933349+00:00,1316,False
+scorecard,outputs/tabelas/07_05_scorecard_executivo.csv,False,,0,False
+auditoria,outputs/auditoria/08_06_diagnostico_final_corrigido.csv,False,,0,False
