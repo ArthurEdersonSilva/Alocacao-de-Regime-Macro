@@ -849,10 +849,20 @@ As etapas seguintes devem ser executadas novamente com o universo final:
 
 <div align="center">
 
-## 👥 Desenvolvedor
+---
+
+<div align="center">
+
+## 👥 Desenvolvedores
 
 👨‍💻 **Arthur Ederson — Engenharia de Computação (FIAP)**
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-ederson-3a817285)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Ederson-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthurederson/)
+
+<br>
+
+👨‍💻 **Arthur Gouvea — Engenharia de Computação (FIAP)**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arthur%20Gouvea-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arthur-gouvea/?skipRedirect=true)
 
 </div>
