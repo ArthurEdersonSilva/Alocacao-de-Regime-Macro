@@ -88,6 +88,7 @@ flowchart LR
     P --> Q[Validação walk-forward]
     Q --> R[Análise final]
     R --> S[Auditoria global]
+    S --> T[Relatório analítico detalhado]
 ```
 
 ---
@@ -608,6 +609,7 @@ Essa estrutura reduz o risco de vazamento temporal e overfitting.
 | 7 | `06_otimizacao_estrategia.py` | Otimiza os parâmetros e executa walk-forward |
 | 8 | `07_analise_resultados_finais.py` | Consolida resultados e métricas |
 | 9 | `08_auditoria_global.py` | Verifica consistência, robustez e vazamento temporal |
+| 10 | `09_relatorio_analitico_detalhado.py` | Gera o relatório analítico detalhado após a auditoria |
 | — | `main.py` | Executa e organiza todo o pipeline |
 
 ---
@@ -633,7 +635,8 @@ alocacao_regime_macro/
 │   ├── 05_backtest.py
 │   ├── 06_otimizacao_estrategia.py
 │   ├── 07_analise_resultados_finais.py
-│   └── 08_auditoria_global.py
+│   ├── 08_auditoria_global.py
+│   └── 09_relatorio_analitico_detalhado.py
 │
 ├── data/
 │   ├── raw/
@@ -662,7 +665,7 @@ alocacao_regime_macro/
 Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/ArthurEdersonSilva/Alocacao-de-Regime-Macro.git
 cd alocacao_regime_macro
 ```
 
@@ -755,6 +758,12 @@ python .\src\07_analise_resultados_finais.py
 python .\src\08_auditoria_global.py
 ```
 
+### Relatório analítico detalhado
+
+```powershell
+python .\src\09_relatorio_analitico_detalhado.py
+```
+
 ---
 
 ## Principais arquivos gerados
@@ -844,10 +853,6 @@ As etapas seguintes devem ser executadas novamente com o universo final:
 - Otimização excessiva pode gerar overfitting.
 - O modelo possui finalidade acadêmica e experimental.
 - O projeto não constitui recomendação de investimento.
-
----
-
-<div align="center">
 
 ---
 
